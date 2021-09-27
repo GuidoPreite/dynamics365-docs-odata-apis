@@ -13,7 +13,7 @@ metadata:
   manager: "annbe"
   meta-description: "Reference information about the Microsoft Dataverse RetrieveTotalRecordCount Function."
 namespace: Microsoft.Dynamics.CRM
-description: "Returns data on the total number of records for specific entities."
+description: "Returns data on the total number of records for specific entities. The data retrieved will be from a snapshot within the last 24 hours."
 iscomposable: false
 # This function is not bound to any entities.
 isbound: false

@@ -4,13 +4,13 @@ name: "RemoveFromQueue"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 3d3502fa-ea92-4481-a116-b9e20066985a
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse RemoveFromQueue Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Removes a queue item from a queue.  "

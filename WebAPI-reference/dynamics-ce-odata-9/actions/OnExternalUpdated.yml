@@ -4,13 +4,13 @@ name: "OnExternalUpdated"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: cbb542ed-76ea-4ec6-b42f-9c197f8dea83
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse OnExternalUpdated Action."
 namespace: Microsoft.Dynamics.CRM
 # This Action has no description.
@@ -25,10 +25,20 @@ parameters:
     nullable: false
     unicode: true
     description: ""
+  - name: PreImage
+    type: Microsoft.Dynamics.CRM.crmbaseentity
+    nullable: true
+    unicode: true
+    description: ""
+  - name: ChangedFields
+    type: Edm.String
+    nullable: false
+    unicode: false
+    description: ""
 # This action has no return value.
 hasreturnvalue: false
 # This action has no identified unbound entities.
-# This action has no remarks.
+# There are no remarks for this action.
 href_see_also:
 - text: "Use the Microsoft Dataverse Web API"
   href: "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/overview"

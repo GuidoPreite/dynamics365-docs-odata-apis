@@ -4,13 +4,13 @@ name: "environmentvariablevalue"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 8c84fb65-8707-4a5c-a582-56ded61a549d
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse environmentvariablevalue entitytype."
 description: "Holds the value for the associated EnvironmentVariableDefinition entity."
 header:

@@ -4,13 +4,13 @@ name: "organization"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 9e191826-8548-4fe6-a631-0227c15d8c99
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse organization entitytype."
 description: "Top level of the Microsoft Dynamics 365 business hierarchy. The organization can be a specific business, holding company, or corporation."
 header:
@@ -157,6 +157,17 @@ properties:
       type: Edm.Boolean
       display_name: "Allow Scheduled Synchronization"
       description: "Indicates whether scheduled synchronizations to Outlook are allowed."
+      iscomputed: false
+      isreadonly: false
+      options:
+        - value: 1
+          label: "Yes"
+        - value: 0
+          label: "No"
+    - name: allowredirectadminsettingstomodernui
+      type: Edm.Boolean
+      display_name: "Allow Redirect Legacy Admin Settings To Modern UI"
+      description: "Control whether the organization Allow Redirect Legacy Admin Settings To Modern UI"
       iscomputed: false
       isreadonly: false
       options:
@@ -670,6 +681,17 @@ properties:
       type: Edm.Boolean
       display_name: "Enable Learning Path Authoring"
       description: "Select to enable learning path auhtoring."
+      iscomputed: false
+      isreadonly: false
+      options:
+        - value: 1
+          label: "Yes"
+        - value: 0
+          label: "No"
+    - name: enablemakerswitchtoclassic
+      type: Edm.Boolean
+      display_name: "Switch Maker Portal to Classic"
+      description: "Control whether the organization Switch Maker Portal to Classic"
       iscomputed: false
       isreadonly: false
       options:
@@ -1940,6 +1962,18 @@ properties:
       description: "Maximum number of actionsteps allowed in a BPF"
       iscomputed: false
       isreadonly: false
+    - name: maxallowedpendingrollupjobcount
+      type: Edm.Int32
+      display_name: "MaxAllowedPendingRollupJobCount"
+      description: "Maximum Allowed Pending Rollup Job Count"
+      iscomputed: false
+      isreadonly: false
+    - name: maxallowedpendingrollupjobpercentage
+      type: Edm.Int32
+      display_name: "MaxAllowedPendingRollupJobPercentage"
+      description: "Percentage Of Entity Table Size For Kicking Off Bootstrap Job"
+      iscomputed: false
+      isreadonly: false
     - name: maxappointmentdurationdays
       type: Edm.Int32
       display_name: "Max Appointment Duration"
@@ -2010,6 +2044,18 @@ properties:
       type: Edm.Int32
       display_name: "Max Records Filter Selection"
       description: "Maximum number of lookup and picklist records that can be selected by user for filtering."
+      iscomputed: false
+      isreadonly: false
+    - name: maxrollupfieldsperentity
+      type: Edm.Int32
+      display_name: "MaxRollupFieldsPerEntity"
+      description: "Maximum Rollup Fields Per Entity"
+      iscomputed: false
+      isreadonly: false
+    - name: maxrollupfieldsperorg
+      type: Edm.Int32
+      display_name: "MaxRollupFieldsPerOrg"
+      description: "Maximum Rollup Fields Per Organization"
       iscomputed: false
       isreadonly: false
     - name: maxslaitemspersla
@@ -2361,6 +2407,17 @@ properties:
       description: "Indicates whether prompt should be shown for new Qualify Lead Experience"
       iscomputed: false
       isreadonly: false
+    - name: quickactiontoopenrecordsinsidepaneenabled
+      type: Edm.Boolean
+      display_name: "Enable quick actions to open records in search side pane"
+      description: "Flag to indicate if the feature to use quick action to open records in search side pane is enabled"
+      iscomputed: false
+      isreadonly: false
+      options:
+        - value: 1
+          label: "Yes"
+        - value: 0
+          label: "No"
     - name: quickfindrecordlimitenabled
       type: Edm.Boolean
       display_name: "Quick Find Record Limit Enabled"
@@ -2378,6 +2435,17 @@ properties:
       description: "Prefix to use for all quotes throughout Microsoft Dynamics 365."
       iscomputed: false
       isreadonly: false
+    - name: recalculatesla
+      type: Edm.Boolean
+      display_name: "Indicates whether SLA Recalculation has been enabled for the organization"
+      description: "Indicates whether SLA Recalculation has been enabled for the organization"
+      iscomputed: false
+      isreadonly: false
+      options:
+        - value: 1
+          label: "Yes"
+        - value: 0
+          label: "No"
     - name: recurrencedefaultnumberofoccurrences
       type: Edm.Int32
       display_name: "Recurrence Default Number of Occurrences"
@@ -2400,6 +2468,29 @@ properties:
       type: Edm.Int32
       display_name: "Recurrence Expansion Synchronization Create Maximum"
       description: "Specifies the maximum number of instances to be created synchronously after creating a recurring appointment."
+      iscomputed: false
+      isreadonly: false
+    - name: releasewavename
+      type: Edm.String
+      display_name: "Release Wave"
+      description: "Release Wave Applied to Environment."
+      iscomputed: false
+      isreadonly: false
+    - name: relevancesearchenabledbyplatform
+      type: Edm.Boolean
+      display_name: "Relevance search enabled automatically by Dataverse"
+      description: "Indicates whether relevance search was enabled for the environment as part of Dataverse's relevance search on-by-default sweep"
+      iscomputed: false
+      isreadonly: false
+      options:
+        - value: 1
+          label: "Yes"
+        - value: 0
+          label: "No"
+    - name: relevancesearchmodifiedon
+      type: Edm.DateTimeOffset
+      display_name: "RelevanceSearchModifiedOnDate"
+      description: "This setting contains the last modified date for relevance search setting that appears as a toggle in PPAC."
       iscomputed: false
       isreadonly: false
     - name: rendersecureiframeforemail

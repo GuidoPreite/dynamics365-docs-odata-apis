@@ -4,13 +4,13 @@ name: "TriggerDefinition"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse TriggerDefinition ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 2fdd3d53-af8d-4ef4-8461-c507c0d2220e
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API TriggerDefinition ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.

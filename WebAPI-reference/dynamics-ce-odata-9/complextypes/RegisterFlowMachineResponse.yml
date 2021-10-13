@@ -4,13 +4,13 @@ name: "RegisterFlowMachineResponse"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse RegisterFlowMachineResponse ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 76b1a72a-c97a-42ae-9393-81863a297df7
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API RegisterFlowMachineResponse ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.
@@ -42,7 +42,7 @@ usedby:
   usedby_items:
   - name: Microsoft.Dynamics.CRM.RegisterFlowMachine
     used_as: ReturnType
-# This complex type has no remarks.
+# There are no remarks for this complex type.
 href_see_also:
 - text: "Use the Microsoft Dataverse Web API"
   href: "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/overview"

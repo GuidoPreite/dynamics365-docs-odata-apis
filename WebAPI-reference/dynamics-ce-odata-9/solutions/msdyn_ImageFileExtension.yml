@@ -4,13 +4,13 @@ name: "This solution includes components introduced by data modeling team"
 type: solution
 metadata: 
   title: "Microsoft Dataverse This solution includes components introduced by data modeling team Solution Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 2d367163-2b10-4725-b242-03c7b357a41d
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse This solution includes components introduced by data modeling team Solution."
 namespace: Microsoft.Dynamics.CRM
 header:

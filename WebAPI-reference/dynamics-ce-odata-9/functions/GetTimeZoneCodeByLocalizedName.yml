@@ -4,13 +4,13 @@ name: "GetTimeZoneCodeByLocalizedName"
 type: function
 metadata: 
   title: "Microsoft Dataverse GetTimeZoneCodeByLocalizedName Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 62925e6c-86ee-49af-8391-e1bf54e98a82
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse GetTimeZoneCodeByLocalizedName Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Retrieves the time zone code for the specified localized time zone name. "

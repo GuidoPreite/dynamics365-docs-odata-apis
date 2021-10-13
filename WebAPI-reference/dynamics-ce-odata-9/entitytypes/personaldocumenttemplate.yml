@@ -4,13 +4,13 @@ name: "personaldocumenttemplate"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 13ee7f7c-de9f-40d3-88fe-519ee10fe906
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse personaldocumenttemplate entitytype."
 description: "Used to store Personal Document Templates in database in binary format."
 header:

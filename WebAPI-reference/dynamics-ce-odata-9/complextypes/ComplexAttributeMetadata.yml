@@ -4,13 +4,13 @@ name: "ComplexAttributeMetadata"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse ComplexAttributeMetadata ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 33bfd6cc-064b-46d4-be51-90e7b8831911
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API ComplexAttributeMetadata ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.
@@ -288,6 +288,12 @@ properties:
     unicode: false
     description: ""
     iscollection: false
+  - name: Settings
+    type: Microsoft.Dynamics.CRM.EntitySetting
+    nullable: false
+    unicode: true
+    description: ""
+    iscollection: true
   - name: MetadataId
     type: Edm.Guid
     nullable: true

@@ -4,13 +4,13 @@ name: "Model-Driven App Element"
 type: solution
 metadata: 
   title: "Microsoft Dataverse Model-Driven App Element Solution Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 96b1b6a4-8c9b-4ada-b4b0-7f5c7a5f166a
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Model-Driven App Element Solution."
 namespace: Microsoft.Dynamics.CRM
 header:

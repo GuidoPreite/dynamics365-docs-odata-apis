@@ -4,13 +4,13 @@ name: "ValidateFetchXmlExpressionResult"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse ValidateFetchXmlExpressionResult ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: b0b7f76f-e386-4e81-a8a1-c45d5a59b139
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API ValidateFetchXmlExpressionResult ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.
@@ -18,6 +18,12 @@ description: ""
 properties:
   description: "The properties of a complex type contain the structured data of the type."
   property_items:
+  - name: Helplink
+    type: Edm.String
+    nullable: true
+    unicode: false
+    description: ""
+    iscollection: false
   - name: Messages
     type: Microsoft.Dynamics.CRM.ValidatorIssue
     nullable: false

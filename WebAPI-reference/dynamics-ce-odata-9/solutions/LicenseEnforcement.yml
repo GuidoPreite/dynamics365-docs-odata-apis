@@ -4,13 +4,13 @@ name: "License Enforcement"
 type: solution
 metadata: 
   title: "Microsoft Dataverse License Enforcement Solution Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 75fd4694-dfec-45b4-92d3-6d255c6e487a
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse License Enforcement Solution."
 namespace: Microsoft.Dynamics.CRM
 header:

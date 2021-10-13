@@ -4,13 +4,13 @@ name: "attribute"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 87ce8f30-2c81-4a4d-99e2-17e3b25aa9d2
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse attribute entitytype."
 # This entity doesn't have a description
 header:
@@ -31,6 +31,18 @@ properties:
       description: "Unique identifier of the attribute."
       iscomputed: false
       isreadonly: false
+    - name: attributeof
+      type: Edm.Guid
+      display_name: "Attribute Of"
+      description: "Attribute Of"
+      iscomputed: false
+      isreadonly: true
+    - name: attributetypeid
+      type: Edm.Guid
+      display_name: "Attribute Type Id"
+      description: "Attribute Type Id"
+      iscomputed: false
+      isreadonly: true
     - name: componentstate
       type: Edm.Int32
       display_name: "Component State"
@@ -100,6 +112,12 @@ properties:
       description: "The table column name of this attribute."
       iscomputed: false
       isreadonly: false
+    - name: validforreadapi
+      type: Edm.Boolean
+      display_name: "Valid For Read API"
+      description: "Valid For Read API"
+      iscomputed: false
+      isreadonly: true
     - name: versionnumber
       type: Edm.Int64
       display_name: "Version Number"

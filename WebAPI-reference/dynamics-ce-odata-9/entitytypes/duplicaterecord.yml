@@ -4,13 +4,13 @@ name: "duplicaterecord"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: a29c6379-e1d1-495e-9062-97d25604f27e
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse duplicaterecord entitytype."
 description: "Potential duplicate record."
 header:
@@ -76,22 +76,36 @@ lookup_properties:
     - baserecordid_emailserverprofile
     - baserecordid_feedback
     - baserecordid_solutioncomponentattributeconfiguration
+    - baserecordid_solutioncomponentbatchconfiguration
     - baserecordid_solutioncomponentconfiguration
     - baserecordid_solutioncomponentrelationshipconfiguration
     - baserecordid_package
     - baserecordid_stagesolutionupload
     - baserecordid_exportsolutionupload
+    - baserecordid_featurecontrolsetting
+    - baserecordid_catalogassignment
     - baserecordid_datalakefolder
     - baserecordid_datalakefolderpermission
     - baserecordid_datalakeworkspace
     - baserecordid_datalakeworkspacepermission
     - baserecordid_msdyn_dataflow
     - baserecordid_serviceplan
+    - baserecordid_serviceplanmapping
     - baserecordid_applicationuser
     - baserecordid_connector
     - baserecordid_environmentvariabledefinition
     - baserecordid_environmentvariablevalue
     - baserecordid_flowmachinegroup
+    - baserecordid_msdyn_aiodimage
+    - baserecordid_msdyn_aiodlabel
+    - baserecordid_msdyn_aiodtrainingboundingbox
+    - baserecordid_msdyn_aiodtrainingimage
+    - baserecordid_msdyn_aibdataset
+    - baserecordid_msdyn_aibdatasetfile
+    - baserecordid_msdyn_aibdatasetrecord
+    - baserecordid_msdyn_aibdatasetscontainer
+    - baserecordid_msdyn_aibfile
+    - baserecordid_msdyn_aibfileattacheddata
     - baserecordid_conversationtranscript
     - baserecordid_activityfileattachment
     - baserecordid_msdyn_serviceconfiguration
@@ -103,25 +117,14 @@ lookup_properties:
     - baserecordid_msdyn_knowledgeinteractioninsight
     - baserecordid_msdyn_knowledgesearchinsight
     - baserecordid_msdyn_kalanguagesetting
+    - baserecordid_msdyn_kbattachment
     - baserecordid_msdyn_knowledgearticletemplate
     - baserecordid_msdyn_knowledgepersonalfilter
     - baserecordid_msdyn_knowledgesearchfilter
     - baserecordid_keyvaultreference
     - baserecordid_managedidentity
-    - baserecordid_catalogassignment
     - baserecordid_organizationdatasyncsubscription
     - baserecordid_organizationdatasyncsubscriptionentity
-    - baserecordid_appnotification
-    - baserecordid_msdyn_aibdataset
-    - baserecordid_msdyn_aibdatasetfile
-    - baserecordid_msdyn_aibdatasetrecord
-    - baserecordid_msdyn_aibdatasetscontainer
-    - baserecordid_msdyn_aibfile
-    - baserecordid_msdyn_aibfileattacheddata
-    - baserecordid_msdyn_aiodimage
-    - baserecordid_msdyn_aiodlabel
-    - baserecordid_msdyn_aiodtrainingboundingbox
-    - baserecordid_msdyn_aiodtrainingimage
     - baserecordid_msdyn_pminferredtask
     - baserecordid_msdyn_pmrecording
     - baserecordid_msdyn_analysiscomponent
@@ -131,6 +134,8 @@ lookup_properties:
     - baserecordid_msdyn_solutionhealthrule
     - baserecordid_msdyn_solutionhealthruleargument
     - baserecordid_msdyn_solutionhealthruleset
+    - baserecordid_msdyn_dataflowrefreshhistory
+    - baserecordid_msdyn_entityrefreshhistory
     description: "Unique identifier of the base record."
   - name: _duplicaterecordid_value
     single_valued_navigation_property:
@@ -152,22 +157,36 @@ lookup_properties:
     - duplicaterecordid_emailserverprofile
     - duplicaterecordid_feedback
     - duplicaterecordid_solutioncomponentattributeconfiguration
+    - duplicaterecordid_solutioncomponentbatchconfiguration
     - duplicaterecordid_solutioncomponentconfiguration
     - duplicaterecordid_solutioncomponentrelationshipconfiguration
     - duplicaterecordid_package
     - duplicaterecordid_stagesolutionupload
     - duplicaterecordid_exportsolutionupload
+    - duplicaterecordid_featurecontrolsetting
+    - duplicaterecordid_catalogassignment
     - duplicaterecordid_datalakefolder
     - duplicaterecordid_datalakefolderpermission
     - duplicaterecordid_datalakeworkspace
     - duplicaterecordid_datalakeworkspacepermission
     - duplicaterecordid_msdyn_dataflow
     - duplicaterecordid_serviceplan
+    - duplicaterecordid_serviceplanmapping
     - duplicaterecordid_applicationuser
     - duplicaterecordid_connector
     - duplicaterecordid_environmentvariabledefinition
     - duplicaterecordid_environmentvariablevalue
     - duplicaterecordid_flowmachinegroup
+    - duplicaterecordid_msdyn_aiodimage
+    - duplicaterecordid_msdyn_aiodlabel
+    - duplicaterecordid_msdyn_aiodtrainingboundingbox
+    - duplicaterecordid_msdyn_aiodtrainingimage
+    - duplicaterecordid_msdyn_aibdataset
+    - duplicaterecordid_msdyn_aibdatasetfile
+    - duplicaterecordid_msdyn_aibdatasetrecord
+    - duplicaterecordid_msdyn_aibdatasetscontainer
+    - duplicaterecordid_msdyn_aibfile
+    - duplicaterecordid_msdyn_aibfileattacheddata
     - duplicaterecordid_conversationtranscript
     - duplicaterecordid_activityfileattachment
     - duplicaterecordid_msdyn_serviceconfiguration
@@ -179,25 +198,14 @@ lookup_properties:
     - duplicaterecordid_msdyn_knowledgeinteractioninsight
     - duplicaterecordid_msdyn_knowledgesearchinsight
     - duplicaterecordid_msdyn_kalanguagesetting
+    - duplicaterecordid_msdyn_kbattachment
     - duplicaterecordid_msdyn_knowledgearticletemplate
     - duplicaterecordid_msdyn_knowledgepersonalfilter
     - duplicaterecordid_msdyn_knowledgesearchfilter
     - duplicaterecordid_keyvaultreference
     - duplicaterecordid_managedidentity
-    - duplicaterecordid_catalogassignment
     - duplicaterecordid_organizationdatasyncsubscription
     - duplicaterecordid_organizationdatasyncsubscriptionentity
-    - duplicaterecordid_appnotification
-    - duplicaterecordid_msdyn_aibdataset
-    - duplicaterecordid_msdyn_aibdatasetfile
-    - duplicaterecordid_msdyn_aibdatasetrecord
-    - duplicaterecordid_msdyn_aibdatasetscontainer
-    - duplicaterecordid_msdyn_aibfile
-    - duplicaterecordid_msdyn_aibfileattacheddata
-    - duplicaterecordid_msdyn_aiodimage
-    - duplicaterecordid_msdyn_aiodlabel
-    - duplicaterecordid_msdyn_aiodtrainingboundingbox
-    - duplicaterecordid_msdyn_aiodtrainingimage
     - duplicaterecordid_msdyn_pminferredtask
     - duplicaterecordid_msdyn_pmrecording
     - duplicaterecordid_msdyn_analysiscomponent
@@ -207,6 +215,8 @@ lookup_properties:
     - duplicaterecordid_msdyn_solutionhealthrule
     - duplicaterecordid_msdyn_solutionhealthruleargument
     - duplicaterecordid_msdyn_solutionhealthruleset
+    - duplicaterecordid_msdyn_dataflowrefreshhistory
+    - duplicaterecordid_msdyn_entityrefreshhistory
     description: "Unique identifier of the potential duplicate record."
   - name: _duplicateruleid_value
     single_valued_navigation_property:
@@ -229,9 +239,6 @@ single_valued_navigation_properties:
   - name: baserecordid_applicationuser
     type: Microsoft.Dynamics.CRM.applicationuser
     partner: applicationuser_DuplicateBaseRecord
-  - name: baserecordid_appnotification
-    type: Microsoft.Dynamics.CRM.appnotification
-    partner: appnotification_DuplicateBaseRecord
   - name: baserecordid_appointment
     type: Microsoft.Dynamics.CRM.appointment
     partner: Appointment_DuplicateBaseRecord
@@ -472,9 +479,6 @@ single_valued_navigation_properties:
   - name: duplicaterecordid_applicationuser
     type: Microsoft.Dynamics.CRM.applicationuser
     partner: applicationuser_DuplicateMatchingRecord
-  - name: duplicaterecordid_appnotification
-    type: Microsoft.Dynamics.CRM.appnotification
-    partner: appnotification_DuplicateMatchingRecord
   - name: duplicaterecordid_appointment
     type: Microsoft.Dynamics.CRM.appointment
     partner: Appointment_DuplicateMatchingRecord

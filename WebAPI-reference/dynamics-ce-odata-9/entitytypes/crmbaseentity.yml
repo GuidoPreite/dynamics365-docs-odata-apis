@@ -4,13 +4,13 @@ name: "crmbaseentity"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 14685ae7-0873-41f1-82ee-c3732a0f62a3
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse crmbaseentity entitytype."
 # This entity doesn't have a description
 # No header required.
@@ -237,7 +237,7 @@ derived_types:
   - type: Microsoft.Dynamics.CRM.kbarticletemplate 
     description: "Template for a knowledge base article that contains the standard attributes of an article." 
   - type: Microsoft.Dynamics.CRM.keyvaultreference 
-    description: "KeyVaultReference entity" 
+    description: "Contains data that refers to an Azure Key Vault containing credentials used to connect to secure web-hosted resources." 
   - type: Microsoft.Dynamics.CRM.knowledgearticle 
     description: "Organizational knowledge for internal and external use." 
   - type: Microsoft.Dynamics.CRM.knowledgearticleviews 
@@ -257,7 +257,7 @@ derived_types:
   - type: Microsoft.Dynamics.CRM.mailmergetemplate 
     description: "Template for a mail merge document that contains the standard attributes of that document." 
   - type: Microsoft.Dynamics.CRM.managedidentity 
-    description: "ManagedIdentity entity" 
+    description: "Contains data to represent an Azure Active Directory Application used to connect to secure web-hosted resources." 
   - type: Microsoft.Dynamics.CRM.managedproperty 
     description: "" 
   - type: Microsoft.Dynamics.CRM.metric 

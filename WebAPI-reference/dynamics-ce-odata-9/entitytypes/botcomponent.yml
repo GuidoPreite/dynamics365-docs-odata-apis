@@ -4,13 +4,13 @@ name: "botcomponent"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: b0a4c1c1-a8ab-4c7e-a5f4-3234b32835d1
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse botcomponent entitytype."
 description: "Holds key authoring components of a Chatbot such a topics, entities, variables, etc."
 header:
@@ -28,6 +28,12 @@ namespace: Microsoft.Dynamics.CRM
 properties:
   description: "Properties represent fields of data stored in the entity.Some properties are read-only."
   property_items:
+    - name: accentcolor
+      type: Edm.String
+      display_name: "Accent Color"
+      description: "Accent Color for this re-usable subcomponent"
+      iscomputed: false
+      isreadonly: false
     - name: botcomponentid
       type: Edm.Guid
       display_name: "BotComponent"
@@ -108,6 +114,18 @@ properties:
       type: Edm.String
       display_name: "Description"
       description: "Contains searchable text for the bot component"
+      iscomputed: false
+      isreadonly: false
+    - name: helplink
+      type: Edm.String
+      display_name: "Help Link"
+      description: "Link to learn More about this subcomponent"
+      iscomputed: false
+      isreadonly: false
+    - name: iconurl
+      type: Edm.String
+      display_name: "Icon Url"
+      description: "Icon Url for this subcomponent"
       iscomputed: false
       isreadonly: false
     - name: importsequencenumber
@@ -204,6 +222,19 @@ properties:
       description: "For internal use only."
       iscomputed: false
       isreadonly: true
+    - name: reusepolicy
+      type: Edm.Int32
+      display_name: "Reuse Policy"
+      description: "Reuse Policy for the chatbot subcomponent"
+      iscomputed: false
+      isreadonly: false
+      options:
+        - value: 0
+          label: "None"
+        - value: 1
+          label: "Private"
+        - value: 2
+          label: "Public"
     - name: schemaname
       type: Edm.String
       display_name: "SchemaName"
@@ -385,7 +416,7 @@ solutions:
   solution_items:
   - type: Microsoft.Dynamics.CRM.PowerVirtualAgents
     description: "For internal use, by the Power Virtual Agents services only."
-# This entity has no remarks.
+# There are no remarks for this entity.
 href_see_also:
 - text: "Use the Microsoft Dataverse Web API"
   href: "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/overview"

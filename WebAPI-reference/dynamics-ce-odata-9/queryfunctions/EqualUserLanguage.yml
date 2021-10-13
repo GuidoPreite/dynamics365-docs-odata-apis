@@ -4,13 +4,13 @@ name: "EqualUserLanguage"
 type: queryfunction
 metadata: 
   title: "Microsoft Dataverse EqualUserLanguage Query Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: ff2a031a-c3c4-467a-ba44-dd74b20b1629
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse EqualUserLanguage Query Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Query function that evaluates whether the value is equal to the language for the user."

@@ -4,13 +4,13 @@ name: "RetrieveEnvironmentVariableValueResponse"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse RetrieveEnvironmentVariableValueResponse ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: dc430e1f-718b-4cc0-b4f3-be6cefabdbdc
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API RetrieveEnvironmentVariableValueResponse ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.

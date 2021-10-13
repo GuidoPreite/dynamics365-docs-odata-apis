@@ -4,13 +4,13 @@ name: "DataEngine Schema Changes"
 type: solution
 metadata: 
   title: "Microsoft Dataverse DataEngine Schema Changes Solution Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 1e556963-56cc-4544-b190-a4c23c5698e2
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse DataEngine Schema Changes Solution."
 namespace: Microsoft.Dynamics.CRM
 header:

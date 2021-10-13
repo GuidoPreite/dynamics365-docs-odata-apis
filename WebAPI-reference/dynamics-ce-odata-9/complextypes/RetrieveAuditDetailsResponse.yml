@@ -4,13 +4,13 @@ name: "RetrieveAuditDetailsResponse"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse RetrieveAuditDetailsResponse ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 66abc959-832a-49c0-aa6b-4b3fd45ff7fc
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API RetrieveAuditDetailsResponse ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.

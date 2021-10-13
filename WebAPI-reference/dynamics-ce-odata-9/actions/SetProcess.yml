@@ -4,13 +4,13 @@ name: "SetProcess"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 74d2ec5c-4768-4db1-b752-d4298988ff90
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse SetProcess Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Sets the process that associates with a given target entity. The user can set to another business process or specify null to clear out the current process."

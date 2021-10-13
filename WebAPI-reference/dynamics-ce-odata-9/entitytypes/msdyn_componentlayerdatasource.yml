@@ -4,13 +4,13 @@ name: "msdyn_componentlayerdatasource"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 6c874153-f634-4598-b024-051c4640fbb6
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse msdyn_componentlayerdatasource entitytype."
 # This entity doesn't have a description
 header:

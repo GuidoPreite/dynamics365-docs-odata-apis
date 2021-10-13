@@ -4,13 +4,13 @@ name: "AuthorizationCore"
 type: solution
 metadata: 
   title: "Microsoft Dataverse AuthorizationCore Solution Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: fc6109f0-d6c0-4a9b-9daf-b46aa256c293
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse AuthorizationCore Solution."
 namespace: Microsoft.Dynamics.CRM
 header:

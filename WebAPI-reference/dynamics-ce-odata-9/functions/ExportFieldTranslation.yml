@@ -4,13 +4,13 @@ name: "ExportFieldTranslation"
 type: function
 metadata: 
   title: "Microsoft Dataverse ExportFieldTranslation Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 14d9f3a1-99a0-4fd4-891c-5751ee3c34ef
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse ExportFieldTranslation Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Exports localizable fields values to a compressed file. "

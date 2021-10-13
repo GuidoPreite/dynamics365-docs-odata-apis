@@ -4,13 +4,13 @@ name: "importlog"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 15121964-4015-42dc-a77d-a5ae2aa98f1a
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse importlog entitytype."
 description: "Failure reason and other detailed information for a record that failed to import."
 header:

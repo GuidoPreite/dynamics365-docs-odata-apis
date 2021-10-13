@@ -4,13 +4,13 @@ name: "AddSolutionComponentResponse"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse AddSolutionComponentResponse ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 58e6e452-66c0-423c-80af-9f8c5c63fa50
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API AddSolutionComponentResponse ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.

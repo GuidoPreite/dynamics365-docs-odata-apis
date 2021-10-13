@@ -4,13 +4,13 @@ name: "Power Platform Connection References"
 type: solution
 metadata: 
   title: "Microsoft Dataverse Power Platform Connection References Solution Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 11c12b83-5e78-4d93-902e-e74afdc8d3ed
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Power Platform Connection References Solution."
 namespace: Microsoft.Dynamics.CRM
 header:

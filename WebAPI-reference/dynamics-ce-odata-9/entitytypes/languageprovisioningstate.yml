@@ -4,13 +4,13 @@ name: "languageprovisioningstate"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: f13bf180-7374-4304-84d3-adb33fba56e4
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse languageprovisioningstate entitytype."
 description: "Container for language provisioning checkpoint states"
 header:

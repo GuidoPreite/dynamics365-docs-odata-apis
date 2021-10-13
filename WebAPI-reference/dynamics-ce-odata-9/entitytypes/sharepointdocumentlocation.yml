@@ -4,13 +4,13 @@ name: "sharepointdocumentlocation"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: e36b40e6-57b5-4e1b-9d6c-885579320dc6
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse sharepointdocumentlocation entitytype."
 description: "Document libraries or folders on a SharePoint server from where documents can be managed in Microsoft Dynamics 365."
 header:

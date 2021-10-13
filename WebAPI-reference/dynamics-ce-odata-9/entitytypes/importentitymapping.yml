@@ -4,13 +4,13 @@ name: "importentitymapping"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 529aedcf-4062-4409-a03e-0998698ac8cb
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse importentitymapping entitytype."
 description: "Mapping for entities in a data map."
 header:

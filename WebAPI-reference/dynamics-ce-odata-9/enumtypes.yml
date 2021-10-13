@@ -1,15 +1,15 @@
 ### YamlMime:ODataIndex
 uid: Microsoft.Dynamics.CRM.EnumTypeIndex
 name: Web API EnumType Reference
-title: "Microsoft DataverseWeb API EnumType Reference | MicrosoftDocs"
+title: "Microsoft Dataverse Web API EnumType Reference | MicrosoftDocs"
 metadata:   
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: ed96bb52-43bc-4b4c-a7e2-f47969238bf5
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
 description: "An EnumType represents an enumeration type in an OData v4 entity model. "
 in_this_section:
 - type: Microsoft.Dynamics.CRM.AccessRights

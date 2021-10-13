@@ -4,13 +4,13 @@ name: "CalculateRollupField"
 type: function
 metadata: 
   title: "Microsoft Dataverse CalculateRollupField Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 5bcc6551-47aa-45d3-8225-9453326206f3
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse CalculateRollupField Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Calculates the value of a rollup attribute. "

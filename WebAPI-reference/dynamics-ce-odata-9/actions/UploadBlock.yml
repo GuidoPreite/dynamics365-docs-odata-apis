@@ -4,13 +4,13 @@ name: "UploadBlock"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 464ff15a-ad66-486d-9696-8c3c07797281
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse UploadBlock Action."
 namespace: Microsoft.Dynamics.CRM
 # This Action has no description.

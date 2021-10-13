@@ -4,13 +4,13 @@ name: "RolePrivilegeAuditDetail"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse RolePrivilegeAuditDetail ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: fe30efee-5411-4966-ab8a-7261bd70a588
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API RolePrivilegeAuditDetail ComplexType."
 namespace: Microsoft.Dynamics.CRM
 header:

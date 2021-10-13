@@ -4,13 +4,13 @@ name: "msdyn_aibfileattacheddata"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 5c9f0e40-a1e1-43e4-918f-9efebc540217
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse msdyn_aibfileattacheddata entitytype."
 # This entity doesn't have a description
 header:

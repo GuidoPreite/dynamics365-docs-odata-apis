@@ -4,13 +4,13 @@ name: "RetrieveDependenciesForDelete"
 type: function
 metadata: 
   title: "Microsoft Dataverse RetrieveDependenciesForDelete Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: d78ff8c2-a922-49e6-b412-9608db732135
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse RetrieveDependenciesForDelete Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Retrieves a collection of dependency records that describe any solution components that would prevent a solution component from being deleted. "

@@ -4,13 +4,13 @@ name: "RegisterFlowMachine"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 98278be7-0275-4eb9-af95-a8e83cd89bee
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse RegisterFlowMachine Action."
 namespace: Microsoft.Dynamics.CRM
 # This Action has no description.
@@ -51,7 +51,7 @@ return_type:
   nullable: false
   type: Microsoft.Dynamics.CRM.RegisterFlowMachineResponse
 # This action has no identified unbound entities.
-# This action has no remarks.
+# There are no remarks for this action.
 href_see_also:
 - text: "Use the Microsoft Dataverse Web API"
   href: "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/overview"

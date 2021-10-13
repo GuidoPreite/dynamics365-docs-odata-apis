@@ -4,13 +4,13 @@ name: "InsertOptionValue"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 62aa8236-cf75-445e-80c3-2035d693d420
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse InsertOptionValue Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Inserts a new option value for a global or local option set.  "
@@ -35,6 +35,11 @@ parameters:
     nullable: true
     unicode: false
     description: "The logical name of the status attribute.  "
+  - name: ExternalValue
+    type: Edm.String
+    nullable: true
+    unicode: false
+    description: ""
   - name: EntityLogicalName
     type: Edm.String
     nullable: true

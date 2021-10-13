@@ -4,13 +4,13 @@ name: "Above"
 type: queryfunction
 metadata: 
   title: "Microsoft Dataverse Above Query Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 48ff2efb-253a-4dde-af0f-4e6242a304a0
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Above Query Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Query function that evaluates whether the entity is above the referenced entity in the hierarchy.  "

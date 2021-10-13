@@ -4,13 +4,13 @@ name: "ErrorType"
 type: enumtype
 metadata: 
   title: "Microsoft Dataverse ErrorType EnumType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 882fb7e8-bd61-4238-883b-4a686a519879
   author: "kumarVivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API ErrorType ComplexType."
 namespace: Microsoft.Dynamics.CRM
 description: "Not Found" 

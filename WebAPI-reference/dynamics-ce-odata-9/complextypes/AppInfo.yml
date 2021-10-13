@@ -4,13 +4,13 @@ name: "AppInfo"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse AppInfo ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: d41a2555-80ee-48eb-bd4e-172bdc01d2b9
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API AppInfo ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.

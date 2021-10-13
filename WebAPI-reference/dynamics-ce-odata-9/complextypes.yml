@@ -1,15 +1,15 @@
 ### YamlMime:ODataIndex
 uid: Microsoft.Dynamics.CRM.ComplexTypeIndex
 name: Web API ComplexType Reference
-title: "Microsoft DataverseWeb API ComplexType Reference | MicrosoftDocs"
+title: "Microsoft Dataverse Web API ComplexType Reference | MicrosoftDocs"
 metadata:   
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: b9ae2c53-0f0a-4428-8f2b-cf95f9f1ff6a
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
 description: "ComplexTypes represent structured data that doesn't have a key. Complex types are frequently returned as a response from using an Action or Function."
 in_this_section:
 - type: Microsoft.Dynamics.CRM.AddSolutionComponentResponse

@@ -4,13 +4,13 @@ name: "ManagedPropertyEvaluationPriority"
 type: enumtype
 metadata: 
   title: "Microsoft Dataverse ManagedPropertyEvaluationPriority EnumType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 055cbcbb-1610-418b-aae6-e67c979f400a
   author: "kumarVivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API ManagedPropertyEvaluationPriority ComplexType."
 namespace: Microsoft.Dynamics.CRM
 description: "For internal use only." 

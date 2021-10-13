@@ -4,13 +4,13 @@ name: "CreateKnowledgeArticleVersion"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 9c14a300-5aa4-4f6b-8e70-dad30f8b8bac
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse CreateKnowledgeArticleVersion Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Creates a major or minor version of a knowledge article instance."

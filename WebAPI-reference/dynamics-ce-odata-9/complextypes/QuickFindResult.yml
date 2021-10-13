@@ -4,13 +4,13 @@ name: "QuickFindResult"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse QuickFindResult ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 5bcc9239-7911-472b-ae35-b224d7357686
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API QuickFindResult ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.

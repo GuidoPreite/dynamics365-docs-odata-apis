@@ -4,13 +4,13 @@ name: "RetrieveOrganizationInfo"
 type: function
 metadata: 
   title: "Microsoft Dataverse RetrieveOrganizationInfo Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 9f493240-db5b-4873-935a-faf4fdc5a745
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse RetrieveOrganizationInfo Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Retrieves information about an organization such as the instance type and solutions available in the organization.  "

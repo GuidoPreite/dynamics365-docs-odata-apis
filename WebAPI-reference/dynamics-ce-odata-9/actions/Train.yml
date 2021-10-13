@@ -4,13 +4,13 @@ name: "Train"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 06389754-1aeb-46e9-85df-bedb18ac2093
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Train Action."
 namespace: Microsoft.Dynamics.CRM
 # This Action has no description.

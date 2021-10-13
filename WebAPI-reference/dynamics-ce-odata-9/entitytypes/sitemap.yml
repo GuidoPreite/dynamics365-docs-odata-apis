@@ -4,13 +4,13 @@ name: "sitemap"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 2f5bc38f-ca1a-492c-a799-919d3b866935
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse sitemap entitytype."
 description: "XML data used to control the application navigation pane."
 header:
@@ -49,6 +49,17 @@ properties:
       description: "Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics CRM options."
       iscomputed: false
       isreadonly: true
+    - name: enablecollapsiblegroups
+      type: Edm.Boolean
+      display_name: "Enable Collapsible Groups"
+      description: "Enable to allow sitemap groups to be collapsed."
+      iscomputed: false
+      isreadonly: false
+      options:
+        - value: 1
+          label: "Yes"
+        - value: 0
+          label: "No"
     - name: isappaware
       type: Edm.Boolean
       display_name: "IsAppAware"
@@ -83,6 +94,39 @@ properties:
       description: ""
       iscomputed: false
       isreadonly: true
+    - name: showhome
+      type: Edm.Boolean
+      display_name: "Show Home"
+      description: "Enable to show the home button in the sitemap."
+      iscomputed: false
+      isreadonly: false
+      options:
+        - value: 1
+          label: "Yes"
+        - value: 0
+          label: "No"
+    - name: showpinned
+      type: Edm.Boolean
+      display_name: "Show Pinned"
+      description: "Enable to show the pinned dropdown in the sitemap."
+      iscomputed: false
+      isreadonly: false
+      options:
+        - value: 1
+          label: "Yes"
+        - value: 0
+          label: "No"
+    - name: showrecents
+      type: Edm.Boolean
+      display_name: "Show Recents"
+      description: "Enable to show the recents dropdown in the sitemap."
+      iscomputed: false
+      isreadonly: false
+      options:
+        - value: 1
+          label: "Yes"
+        - value: 0
+          label: "No"
     - name: sitemapid
       type: Edm.Guid
       display_name: ""
@@ -113,6 +157,12 @@ properties:
       description: ""
       iscomputed: false
       isreadonly: false
+    - name: sitemapxmlmanaged
+      type: Edm.String
+      display_name: ""
+      description: ""
+      iscomputed: false
+      isreadonly: true
     - name: solutionid
       type: Edm.Guid
       display_name: ""

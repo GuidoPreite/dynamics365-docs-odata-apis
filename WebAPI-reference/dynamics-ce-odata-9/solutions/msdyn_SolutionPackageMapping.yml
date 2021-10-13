@@ -4,13 +4,13 @@ name: "msdyn_SolutionPackageMapping"
 type: solution
 metadata: 
   title: "Microsoft Dataverse msdyn_SolutionPackageMapping Solution Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 9e8ce68c-4e3f-4afd-b66d-81b7231286b8
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse msdyn_SolutionPackageMapping Solution."
 namespace: Microsoft.Dynamics.CRM
 header:

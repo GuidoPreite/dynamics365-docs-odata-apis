@@ -4,13 +4,13 @@ name: "workflow"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 7c5681b1-7ae7-428e-bbec-6a733a45bb34
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse workflow entitytype."
 description: "Set of logical rules that define the steps necessary to automate a specific business process, task, or set of actions to be performed."
 header:
@@ -410,6 +410,17 @@ properties:
       description: "Attributes that trigger the process when updated."
       iscomputed: false
       isreadonly: false
+    - name: trustedaccess
+      type: Edm.Boolean
+      display_name: "Trusted Access"
+      description: "For Internal Use Only."
+      iscomputed: false
+      isreadonly: true
+      options:
+        - value: 1
+          label: "Workflow has gone through access check"
+        - value: 0
+          label: "Workflow has not gone through access check"
     - name: type
       type: Edm.Int32
       display_name: "Type"

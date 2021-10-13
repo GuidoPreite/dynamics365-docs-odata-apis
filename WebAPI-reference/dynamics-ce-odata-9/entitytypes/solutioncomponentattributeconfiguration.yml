@@ -4,13 +4,13 @@ name: "solutioncomponentattributeconfiguration"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 02c352fa-3be5-45eb-8e4d-710ab93c7be7
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse solutioncomponentattributeconfiguration entitytype."
 # This entity doesn't have a description
 header:
@@ -86,6 +86,17 @@ properties:
       description: "For internal use only."
       iscomputed: false
       isreadonly: false
+    - name: isenabledfordependencyextraction
+      type: Edm.Boolean
+      display_name: "Enabled for Dependency Extraction"
+      description: ""
+      iscomputed: false
+      isreadonly: false
+      options:
+        - value: 1
+          label: "Yes"
+        - value: 0
+          label: "No"
     - name: isexportdisabled
       type: Edm.Boolean
       display_name: "Export Disabled"

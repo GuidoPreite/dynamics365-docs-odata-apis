@@ -4,13 +4,13 @@ name: "msdyn_kmfederatedsearchconfig"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 346d1ab3-3ef9-41b3-adcf-2162cebb2929
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse msdyn_kmfederatedsearchconfig entitytype."
 # This entity doesn't have a description
 header:

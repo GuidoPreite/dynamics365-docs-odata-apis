@@ -4,13 +4,13 @@ name: "TimeCode"
 type: enumtype
 metadata: 
   title: "Microsoft Dataverse TimeCode EnumType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 86914701-ab09-436c-8430-3d6ffdeaa81a
   author: "kumarVivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API TimeCode ComplexType."
 namespace: Microsoft.Dynamics.CRM
 description: "Contains the possible values for a time code, used when querying a schedule. " 

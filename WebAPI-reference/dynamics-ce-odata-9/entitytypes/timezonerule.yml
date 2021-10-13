@@ -4,13 +4,13 @@ name: "timezonerule"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 39e610e8-cbae-4447-8dc6-9e027cec349c
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse timezonerule entitytype."
 description: "Definition for time conversion between local time and Coordinated Universal Time (UTC) for a particular time zone at a particular time period."
 header:

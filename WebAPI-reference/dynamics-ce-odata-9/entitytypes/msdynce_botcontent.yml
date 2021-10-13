@@ -4,13 +4,13 @@ name: "msdynce_botcontent"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 9a139ae0-0772-485e-b8dc-0deb9ecc42be
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse msdynce_botcontent entitytype."
 # This entity doesn't have a description
 header:

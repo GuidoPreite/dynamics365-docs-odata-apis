@@ -4,13 +4,13 @@ name: "DataEngineSPsAndIndexes"
 type: solution
 metadata: 
   title: "Microsoft Dataverse DataEngineSPsAndIndexes Solution Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: fc5f6565-d9b8-4625-8495-f2b95319e754
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse DataEngineSPsAndIndexes Solution."
 namespace: Microsoft.Dynamics.CRM
 header:

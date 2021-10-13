@@ -4,13 +4,13 @@ name: "appnotification"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 28426305-106a-43ca-90f2-7d1b4d32873f
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse appnotification entitytype."
 description: "Notification to be provided to a user."
 header:
@@ -52,12 +52,6 @@ properties:
       description: "Custom data for the notification that can be used by the notification card"
       iscomputed: false
       isreadonly: false
-    - name: expireson
-      type: Edm.Date
-      display_name: "Expires on"
-      description: "Date and time when the notification will be deleted"
-      iscomputed: false
-      isreadonly: false
     - name: icontype
       type: Edm.Int32
       display_name: "IconType"
@@ -95,6 +89,12 @@ properties:
       description: "Date and time that the record was migrated."
       iscomputed: false
       isreadonly: false
+    - name: partitionid
+      type: Edm.String
+      display_name: "Partition Id"
+      description: "Partitioning will be based on owner and it is recommended to specify this field for all operations for performance reason"
+      iscomputed: false
+      isreadonly: false
     - name: priority
       type: Edm.Int32
       display_name: "Priority"
@@ -106,30 +106,6 @@ properties:
           label: "Normal"
         - value: 200000001
           label: "High"
-    - name: statecode
-      type: Edm.Int32
-      display_name: "Status"
-      description: "Status of the notification"
-      iscomputed: false
-      isreadonly: false
-      options:
-        - value: 0
-          label: "Active"
-        - value: 1
-          label: "Inactive"
-    - name: statuscode
-      type: Edm.Int32
-      display_name: "Status Reason"
-      description: "Reason for the status of the Notification"
-      iscomputed: false
-      isreadonly: false
-      options:
-        - value: 1
-          label: "Unread"
-        - value: 2
-          label: "Read"
-        - value: 3
-          label: "Inactive"
     - name: timezoneruleversionnumber
       type: Edm.Int32
       display_name: "Time Zone Rule Version Number"
@@ -153,6 +129,12 @@ properties:
           label: "Timed"
         - value: 200000001
           label: "Hidden"
+    - name: ttlinseconds
+      type: Edm.Int32
+      display_name: "Expiry (seconds)"
+      description: "After the specified number of seconds the notification will be deleted"
+      iscomputed: false
+      isreadonly: false
     - name: utcconversiontimezonecode
       type: Edm.Int32
       display_name: "UTC Conversion Time Zone Code"
@@ -234,55 +216,15 @@ single_valued_navigation_properties:
   - name: owninguser
     type: Microsoft.Dynamics.CRM.systemuser
     partner: user_appnotification
-collection_valued_navigation_properties:
-  description: "Collection-valued navigation properties represent collections of entities which may represent either a one-to-many (1:N) or many-to-many (N:N) relationship between the entities."
-  property_items:
-  - name: appnotification_AsyncOperations
-    type: Microsoft.Dynamics.CRM.asyncoperation
-    partner: regardingobjectid_appnotification
-  - name: appnotification_BulkDeleteFailures
-    type: Microsoft.Dynamics.CRM.bulkdeletefailure
-    partner: regardingobjectid_appnotification
-  - name: appnotification_DuplicateBaseRecord
-    type: Microsoft.Dynamics.CRM.duplicaterecord
-    partner: baserecordid_appnotification
-  - name: appnotification_DuplicateMatchingRecord
-    type: Microsoft.Dynamics.CRM.duplicaterecord
-    partner: duplicaterecordid_appnotification
-  - name: appnotification_MailboxTrackingFolders
-    type: Microsoft.Dynamics.CRM.mailboxtrackingfolder
-    partner: regardingobjectid_appnotification
-  - name: appnotification_PrincipalObjectAttributeAccesses
-    type: Microsoft.Dynamics.CRM.principalobjectattributeaccess
-    partner: objectid_appnotification
-  - name: appnotification_ProcessSession
-    type: Microsoft.Dynamics.CRM.processsession
-    partner: regardingobjectid_appnotification
-  - name: appnotification_SyncErrors
-    type: Microsoft.Dynamics.CRM.syncerror
-    partner: regardingobjectid_appnotification
+# This entity has no collection-valued navigation properties
 # This entity has no derived entities.
-operations:
-  description: "The following operations can be used with the appnotification entity type."
-  operation_items:
-  - name: Microsoft.Dynamics.CRM.GrantAccess
-    binding_type: "Not Bound"
-  - name: Microsoft.Dynamics.CRM.IsValidStateTransition
-    binding_type: "Not Bound"
-  - name: Microsoft.Dynamics.CRM.ModifyAccess
-    binding_type: "Not Bound"
-  - name: Microsoft.Dynamics.CRM.RetrievePrincipalAccess
-    binding_type: "Not Bound"
-  - name: Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess
-    binding_type: "Not Bound"
-  - name: Microsoft.Dynamics.CRM.RevokeAccess
-    binding_type: "Not Bound"
+# This entity has no operations
 solutions:
   description: "The following solutions include the appnotification entity type."
   solution_items:
   - type: Microsoft.Dynamics.CRM.AppNotifications
     description: "Contains the definitions of App Notification"
-# This entity has no remarks.
+# There are no remarks for this entity.
 href_see_also:
 - text: "Use the Microsoft Dataverse Web API"
   href: "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/overview"

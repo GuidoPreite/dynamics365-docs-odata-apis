@@ -4,13 +4,13 @@ name: "Collection_String_String"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse Collection_String_String ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: e08d94cd-4248-4b85-a710-cfb96fbae945
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API Collection_String_String ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.

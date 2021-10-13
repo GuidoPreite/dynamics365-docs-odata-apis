@@ -4,13 +4,13 @@ name: "RetrieveLicenseInfo"
 type: function
 metadata: 
   title: "Microsoft Dataverse RetrieveLicenseInfo Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: a4a7b05f-bad1-4695-9197-46d80803c2d0
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse RetrieveLicenseInfo Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Retrieves the number of used and available licenses for a deployment of Microsoft Dynamics 365. "

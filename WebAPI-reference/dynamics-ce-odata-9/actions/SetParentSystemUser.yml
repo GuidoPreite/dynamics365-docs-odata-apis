@@ -4,13 +4,13 @@ name: "SetParentSystemUser"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 5a4d1065-09c4-4300-a2be-bb192dae5869
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse SetParentSystemUser Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Sets a new parent system user (user) for the specified user.  "

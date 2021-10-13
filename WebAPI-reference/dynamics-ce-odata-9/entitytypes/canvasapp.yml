@@ -4,13 +4,13 @@ name: "canvasapp"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 2d70259a-7b57-4d0d-b64b-92debbf2035a
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse canvasapp entitytype."
 description: "An application built through a canvas-based editing experience."
 header:
@@ -83,7 +83,7 @@ properties:
       isreadonly: false
     - name: assets
       type: Edm.Binary
-      display_name: ""
+      display_name: "Assets"
       description: "Assets for Canvas Apps."
       iscomputed: false
       isreadonly: true
@@ -101,7 +101,7 @@ properties:
       isreadonly: false
     - name: background_image
       type: Edm.Binary
-      display_name: ""
+      display_name: "Background Image"
       description: "Background image for Canvas Apps."
       iscomputed: false
       isreadonly: true
@@ -231,7 +231,7 @@ properties:
       isreadonly: false
     - name: document
       type: Edm.Binary
-      display_name: ""
+      display_name: "Document"
       description: "Document for Canvas Apps."
       iscomputed: false
       isreadonly: true
@@ -322,7 +322,7 @@ properties:
           label: "Unmanaged"
     - name: large_icon
       type: Edm.Binary
-      display_name: ""
+      display_name: "Large Icon"
       description: "Large icon for Canvas Apps."
       iscomputed: false
       isreadonly: true
@@ -346,7 +346,7 @@ properties:
       isreadonly: false
     - name: medium_icon
       type: Edm.Binary
-      display_name: ""
+      display_name: "Medium Icon"
       description: "Medium icon for Canvas Apps."
       iscomputed: false
       isreadonly: true
@@ -382,7 +382,7 @@ properties:
       isreadonly: false
     - name: small_icon
       type: Edm.Binary
-      display_name: ""
+      display_name: "Small Icon"
       description: "Small icon for Canvas Apps."
       iscomputed: false
       isreadonly: true
@@ -412,7 +412,7 @@ properties:
       isreadonly: false
     - name: teams_icon
       type: Edm.Binary
-      display_name: ""
+      display_name: "Teams Icon"
       description: "Teams icon for Canvas Apps."
       iscomputed: false
       isreadonly: true
@@ -430,7 +430,7 @@ properties:
       isreadonly: true
     - name: wide_icon
       type: Edm.Binary
-      display_name: ""
+      display_name: "Wide Icon"
       description: "Wide icon for Canvas Apps."
       iscomputed: false
       isreadonly: true

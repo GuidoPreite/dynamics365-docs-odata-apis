@@ -4,13 +4,13 @@ name: "ImportRecordsImport"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 511c4c3b-6c72-4a15-a72d-1485a8e209e7
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse ImportRecordsImport Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Submits an asynchronous job that uploads the transformed data into Microsoft Dynamics 365."

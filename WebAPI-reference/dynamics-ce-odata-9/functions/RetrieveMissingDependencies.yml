@@ -4,13 +4,13 @@ name: "RetrieveMissingDependencies"
 type: function
 metadata: 
   title: "Microsoft Dataverse RetrieveMissingDependencies Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: d161c5d0-3d2d-429d-9d54-cee0fd64d9ca
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse RetrieveMissingDependencies Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Retrieves any required solution components that are not included in the solution. "

@@ -4,13 +4,13 @@ name: "queueitem"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: bdb8e12f-1f2d-40ce-8a80-ed6efd71edd2
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse queueitem entitytype."
 description: "A specific item in a queue, such as a case record or an activity record."
 header:
@@ -71,7 +71,7 @@ properties:
           label: "Recurring Appointment"
         - value: 4212
           label: "Task"
-        - value: 10060
+        - value: 10086
           label: "Knowledge Article Template"
         - value: 4202
           label: "Email"

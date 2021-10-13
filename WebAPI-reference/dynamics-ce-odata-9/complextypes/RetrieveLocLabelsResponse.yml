@@ -4,13 +4,13 @@ name: "RetrieveLocLabelsResponse"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse RetrieveLocLabelsResponse ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: eac49068-9bc2-4e91-b517-fe80f1da9f81
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API RetrieveLocLabelsResponse ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.

@@ -4,13 +4,13 @@ name: "OverridableSettingInfo"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse OverridableSettingInfo ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 6684b19b-77d6-45f6-8a54-6d89bf1ced09
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API OverridableSettingInfo ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.
@@ -42,12 +42,6 @@ properties:
     unicode: true
     description: ""
     iscollection: false
-  - name: FinalValue
-    type: Edm.String
-    nullable: true
-    unicode: false
-    description: ""
-    iscollection: false
   - name: DefaultValue
     type: Edm.String
     nullable: true
@@ -60,32 +54,8 @@ properties:
     unicode: true
     description: ""
     iscollection: false
-  - name: OrgValue
-    type: Edm.String
-    nullable: true
-    unicode: false
-    description: ""
-    iscollection: false
-  - name: AppValue
-    type: Edm.String
-    nullable: true
-    unicode: false
-    description: ""
-    iscollection: false
   - name: DataType
     type: Edm.Int32
-    nullable: true
-    unicode: true
-    description: ""
-    iscollection: false
-  - name: AppSettingId
-    type: Edm.Guid
-    nullable: true
-    unicode: true
-    description: ""
-    iscollection: false
-  - name: OrganizationSettingId
-    type: Edm.Guid
     nullable: true
     unicode: true
     description: ""
@@ -96,21 +66,69 @@ properties:
     unicode: true
     description: ""
     iscollection: false
-  - name: IsAppSettingCustomizable
+  - name: IsCustomizable
     type: Edm.Boolean
     nullable: true
     unicode: true
     description: ""
     iscollection: false
-  - name: IsOrganizationSettingCustomizable
+  - name: IsHidden
     type: Edm.Boolean
     nullable: true
     unicode: true
     description: ""
     iscollection: false
+  - name: IsOverridable
+    type: Edm.Boolean
+    nullable: true
+    unicode: true
+    description: ""
+    iscollection: false
+  - name: PresentInSolution
+    type: Edm.Boolean
+    nullable: true
+    unicode: true
+    description: ""
+    iscollection: false
+  - name: IsManaged
+    type: Edm.Boolean
+    nullable: true
+    unicode: true
+    description: ""
+    iscollection: false
+  - name: IsPlatform
+    type: Edm.Boolean
+    nullable: true
+    unicode: true
+    description: ""
+    iscollection: false
+  - name: InformationUrl
+    type: Edm.String
+    nullable: true
+    unicode: false
+    description: ""
+    iscollection: false
+  - name: HasActiveCustomizations
+    type: Edm.Boolean
+    nullable: true
+    unicode: true
+    description: ""
+    iscollection: false
+  - name: OrgOverridableSettingInfo
+    type: Microsoft.Dynamics.CRM.OrgOverridableSettingInfo
+    nullable: true
+    unicode: true
+    description: ""
+    iscollection: false
+  - name: AppOverridableSettingInfo
+    type: Microsoft.Dynamics.CRM.AppOverridableSettingInfo
+    nullable: false
+    unicode: true
+    description: ""
+    iscollection: true
 # This complex type doesn't have any navigation properties.
 
-# This complex type has no remarks.
+# There are no remarks for this complex type.
 href_see_also:
 - text: "Use the Microsoft Dataverse Web API"
   href: "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/overview"

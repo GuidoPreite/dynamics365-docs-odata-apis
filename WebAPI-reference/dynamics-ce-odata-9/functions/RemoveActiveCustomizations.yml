@@ -4,13 +4,13 @@ name: "RemoveActiveCustomizations"
 type: function
 metadata: 
   title: "Microsoft Dataverse RemoveActiveCustomizations Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: cec3c18a-ea25-4178-99a3-99867930960d
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse RemoveActiveCustomizations Function."
 namespace: Microsoft.Dynamics.CRM
 description: ""

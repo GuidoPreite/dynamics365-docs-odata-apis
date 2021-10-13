@@ -4,13 +4,13 @@ name: "ExportTranslation"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: f6c9c0cb-fb3b-4055-8bdd-5f5ee6d6596f
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse ExportTranslation Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Exports all translations for a specific solution to a compressed file. "

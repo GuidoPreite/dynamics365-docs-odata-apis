@@ -4,19 +4,19 @@ name: "managedidentity"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: c008bfa8-cf36-4f55-9c3a-ea6510292fc2
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse managedidentity entitytype."
-description: "ManagedIdentity entity"
+description: "Contains data to represent an Azure Active Directory Application used to connect to secure web-hosted resources."
 header:
   entity_set_path: "[organization URI]/api/data/v9.0/managedidentities"
   base_type: Microsoft.Dynamics.CRM.crmbaseentity
-  display_name: ManagedIdentity
+  display_name: Managed Identity
   primary_key: managedidentityid
   primary_name_attribute: name
   operations_supported:
@@ -37,7 +37,7 @@ properties:
     - name: clientsecret
       type: Edm.String
       display_name: "Client Secret"
-      description: "Client Secret"
+      description: "Contains a secret for the Azure Active Directory application. Once set, it cannot be read except by Dataverse."
       iscomputed: false
       isreadonly: false
     - name: componentidunique
@@ -69,8 +69,8 @@ properties:
       isreadonly: true
     - name: credentialsource
       type: Edm.Int32
-      display_name: "CredentialSource"
-      description: ""
+      display_name: "Credential Source"
+      description: "Where the Managed Identity will get the credentials to use."
       iscomputed: false
       isreadonly: false
       options:
@@ -80,6 +80,8 @@ properties:
           label: "KeyVault"
         - value: 2
           label: "IsManaged"
+        - value: 3
+          label: "MicrosoftFirstPartyCertificate"
     - name: importsequencenumber
       type: Edm.Int32
       display_name: "Import Sequence Number"
@@ -118,7 +120,7 @@ properties:
     - name: name
       type: Edm.String
       display_name: "Name"
-      description: "Name"
+      description: "The name assigned to this Managed Identity."
       iscomputed: false
       isreadonly: false
     - name: objectid
@@ -148,7 +150,7 @@ properties:
     - name: statecode
       type: Edm.Int32
       display_name: "Status"
-      description: "Status of the ManagedIdentity"
+      description: "Status of the Managed Identity"
       iscomputed: false
       isreadonly: false
       options:
@@ -159,7 +161,7 @@ properties:
     - name: statuscode
       type: Edm.Int32
       display_name: "Status Reason"
-      description: "Reason for the status of the ManagedIdentity"
+      description: "Reason for the status of the Managed Identity"
       iscomputed: false
       isreadonly: false
       options:
@@ -170,7 +172,7 @@ properties:
     - name: tenantid
       type: Edm.Guid
       display_name: "TenantId"
-      description: "TenantId"
+      description: "The Id of the Azure Active Directory Tenant that the Application is part of."
       iscomputed: false
       isreadonly: false
     - name: timezoneruleversionnumber
@@ -317,7 +319,7 @@ solutions:
   solution_items:
   - type: Microsoft.Dynamics.CRM.ManagedIdentityExtensions
     description: ""
-# This entity has no remarks.
+# There are no remarks for this entity.
 href_see_also:
 - text: "Use the Microsoft Dataverse Web API"
   href: "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/overview"

@@ -4,13 +4,13 @@ name: "msdyn_pminferredtask"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: bc4c469d-f03d-45af-9a66-a3578fc90c83
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse msdyn_pminferredtask entitytype."
 # This entity doesn't have a description
 header:
@@ -336,7 +336,7 @@ solutions:
   solution_items:
   - type: Microsoft.Dynamics.CRM.ProcessMining
     description: ""
-# This entity has no remarks.
+# There are no remarks for this entity.
 href_see_also:
 - text: "Use the Microsoft Dataverse Web API"
   href: "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/overview"

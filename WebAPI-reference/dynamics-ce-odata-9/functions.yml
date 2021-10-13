@@ -1,15 +1,15 @@
 ### YamlMime:ODataIndex
 uid: Microsoft.Dynamics.CRM.FunctionIndex
 name: Web API Function Reference
-title: "Microsoft DataverseWeb API Function Reference | MicrosoftDocs"
+title: "Microsoft Dataverse Web API Function Reference | MicrosoftDocs"
 metadata:   
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: ab719434-7c3c-4bc3-8fee-bb14335d3f9d
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
 description: "A function is an operation which does not have observable side effects. They typically retrieve data. They may have parameters and they may return values. Functions may be bound to entity types."
 in_this_section:
 - type: Microsoft.Dynamics.CRM.CalculateRollupField
@@ -196,7 +196,7 @@ in_this_section:
 - type: Microsoft.Dynamics.CRM.RetrieveTimestamp
   description: "Retrieves a time stamp for the metadata.  "
 - type: Microsoft.Dynamics.CRM.RetrieveTotalRecordCount
-  description: "Returns data on the total number of records for specific entities."
+  description: "Returns data on the total number of records for specific entities. The data retrieved will be from a snapshot within last 24 hours. "
 - type: Microsoft.Dynamics.CRM.RetrieveUnpublished
   description: ""
 - type: Microsoft.Dynamics.CRM.RetrieveUnpublishedMultiple

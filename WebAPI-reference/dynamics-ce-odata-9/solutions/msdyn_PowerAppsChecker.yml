@@ -4,13 +4,13 @@ name: "Power Apps Checker"
 type: solution
 metadata: 
   title: "Microsoft Dataverse Power Apps Checker Solution Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 2911e760-f433-4aa7-b7a9-404f0112b8c2
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Power Apps Checker Solution."
 namespace: Microsoft.Dynamics.CRM
 header:

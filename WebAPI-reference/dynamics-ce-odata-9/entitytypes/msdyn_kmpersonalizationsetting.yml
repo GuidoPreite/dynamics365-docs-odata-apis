@@ -4,13 +4,13 @@ name: "msdyn_kmpersonalizationsetting"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 3e5c46e4-4f6d-4e8b-b6b8-604d702fe683
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse msdyn_kmpersonalizationsetting entitytype."
 description: "Allows users to personalize their knowledge search filters and knowledge authoring language."
 header:
@@ -189,7 +189,7 @@ solutions:
   solution_items:
   - type: Microsoft.Dynamics.CRM.msdynce_KnowledgeManagementFeatures
     description: "Dynamics 365 features and migrated controls for knowledge management."
-# This entity has no remarks.
+# There are no remarks for this entity.
 href_see_also:
 - text: "Use the Microsoft Dataverse Web API"
   href: "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/overview"

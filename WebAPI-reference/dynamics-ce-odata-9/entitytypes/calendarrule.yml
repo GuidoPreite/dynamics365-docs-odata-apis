@@ -4,13 +4,13 @@ name: "calendarrule"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 35884440-4397-47e6-a8f7-d85746b7209b
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse calendarrule entitytype."
 description: "Defines free/busy times for a service and for resources or resource groups, such as working, non-working, vacation, and blocked."
 header:

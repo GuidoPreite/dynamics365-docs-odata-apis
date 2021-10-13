@@ -4,13 +4,13 @@ name: "Metadata Extension"
 type: solution
 metadata: 
   title: "Microsoft Dataverse Metadata Extension Solution Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 14b881e2-af6a-4ee6-8d91-d2ae475610ab
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Metadata Extension Solution."
 namespace: Microsoft.Dynamics.CRM
 header:

@@ -4,13 +4,13 @@ name: "DeleteOptionValue"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 83f7dc1f-0352-4a30-b274-0b49597214bd
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse DeleteOptionValue Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Deletes an option value in a global or local option set.  "

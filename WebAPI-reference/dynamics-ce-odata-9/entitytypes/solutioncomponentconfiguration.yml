@@ -4,13 +4,13 @@ name: "solutioncomponentconfiguration"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: f1f3a2d7-0ba1-41a3-ab7f-87ba5b964542
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse solutioncomponentconfiguration entitytype."
 # This entity doesn't have a description
 header:

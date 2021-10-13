@@ -4,13 +4,13 @@ name: "contact"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 27308cb4-1fb8-4f13-bfc9-d7f22ab25ae4
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse contact entitytype."
 description: "Person with whom a business unit has a relationship, such as customer, supplier, and colleague."
 header:

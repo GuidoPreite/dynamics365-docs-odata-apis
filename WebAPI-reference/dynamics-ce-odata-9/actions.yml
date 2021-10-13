@@ -1,15 +1,15 @@
 ### YamlMime:ODataIndex
 uid: Microsoft.Dynamics.CRM.ActionIndex
 name: Web API Action Reference
-title: "Microsoft DataverseWeb API Action Reference | MicrosoftDocs"
+title: "Microsoft Dataverse Web API Action Reference | MicrosoftDocs"
 metadata:   
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 9d8c9441-fa96-49da-bacb-a9d7f2d6dfd8
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
 description: "Actions represent operations which may have observable side effects, such as creating or updating records. An Action may require parameters and may return a value. Actions may be bound to entity types."
 in_this_section:
 - type: Microsoft.Dynamics.CRM.AddAppComponents

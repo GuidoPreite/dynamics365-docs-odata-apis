@@ -4,13 +4,13 @@ name: "EqualUserOrUserHierarchyAndTeams"
 type: queryfunction
 metadata: 
   title: "Microsoft Dataverse EqualUserOrUserHierarchyAndTeams Query Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 3234e028-f7b8-474f-b6b0-911815278d2c
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse EqualUserOrUserHierarchyAndTeams Query Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Query function that evaluates whether the entity equals current user or their reporting hierarchy and teams. "

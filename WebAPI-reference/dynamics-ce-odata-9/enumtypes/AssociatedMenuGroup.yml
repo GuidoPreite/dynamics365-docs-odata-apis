@@ -4,13 +4,13 @@ name: "AssociatedMenuGroup"
 type: enumtype
 metadata: 
   title: "Microsoft Dataverse AssociatedMenuGroup EnumType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: d178d5c9-7cfa-475e-a9b1-322245e4caa0
   author: "kumarVivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API AssociatedMenuGroup ComplexType."
 namespace: Microsoft.Dynamics.CRM
 description: "Describes the group in which to display the associated menu for an entity relationship " 

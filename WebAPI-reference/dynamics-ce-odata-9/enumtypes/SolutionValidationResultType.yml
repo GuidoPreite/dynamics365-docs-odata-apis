@@ -4,13 +4,13 @@ name: "SolutionValidationResultType"
 type: enumtype
 metadata: 
   title: "Microsoft Dataverse SolutionValidationResultType EnumType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 1439bacb-076d-403a-8db7-1876d0820976
   author: "kumarVivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API SolutionValidationResultType ComplexType."
 namespace: Microsoft.Dynamics.CRM
 description: "The type of result returned from validating a solution." 

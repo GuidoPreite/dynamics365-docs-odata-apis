@@ -1,15 +1,15 @@
 ### YamlMime:ODataIndex
 uid: Microsoft.Dynamics.CRM.EntityTypeIndex
 name: Web API EntityType Reference
-title: "Microsoft DataverseWeb API EntityType Reference | MicrosoftDocs"
+title: "Microsoft Dataverse Web API EntityType Reference | MicrosoftDocs"
 metadata:   
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: ed96bb52-43bc-4b4c-a7e2-f47969238bf5
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
 description: "An EntityType represents an entity type in the OData v4 entity model."
 in_this_section:
 - type: Microsoft.Dynamics.CRM.account
@@ -337,8 +337,8 @@ in_this_section:
   displayName: "Article Template"
   description: "Template for a knowledge base article that contains the standard attributes of an article."
 - type: Microsoft.Dynamics.CRM.keyvaultreference
-  displayName: "KeyVaultReference"
-  description: "KeyVaultReference entity"
+  displayName: "Key Vault Reference"
+  description: "Contains data that refers to an Azure Key Vault containing credentials used to connect to secure web-hosted resources."
 - type: Microsoft.Dynamics.CRM.knowledgearticle
   displayName: "Knowledge Article"
   description: "Organizational knowledge for internal and external use."
@@ -370,8 +370,8 @@ in_this_section:
   displayName: "Mail Merge Template"
   description: "Template for a mail merge document that contains the standard attributes of that document."
 - type: Microsoft.Dynamics.CRM.managedidentity
-  displayName: "ManagedIdentity"
-  description: "ManagedIdentity entity"
+  displayName: "Managed Identity"
+  description: "Contains data to represent an Azure Active Directory Application used to connect to secure web-hosted resources."
 - type: Microsoft.Dynamics.CRM.managedproperty
   displayName: "Managed Property"
   description: ""
@@ -457,7 +457,7 @@ in_this_section:
   displayName: "Knowledge Federated Article"
   description: ""
 - type: Microsoft.Dynamics.CRM.msdyn_federatedarticleincident
-  displayName: "Knowledge FederatedArticle Incident"
+  displayName: "Knowledge Federated Article Incident"
   description: ""
 - type: Microsoft.Dynamics.CRM.msdyn_helppage
   displayName: "Help Page"

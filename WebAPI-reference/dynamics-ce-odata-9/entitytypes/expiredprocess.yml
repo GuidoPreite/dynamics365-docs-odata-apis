@@ -4,13 +4,13 @@ name: "expiredprocess"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 55a720a4-462b-4538-b4f5-5f5694489a44
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse expiredprocess entitytype."
 description: "Expired Process Business Process Flow"
 header:

@@ -4,13 +4,13 @@ name: "EntityKeyIndexStatus"
 type: enumtype
 metadata: 
   title: "Microsoft Dataverse EntityKeyIndexStatus EnumType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: fabc988e-4256-4248-8a7f-6a505c3fb2bd
   author: "kumarVivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API EntityKeyIndexStatus ComplexType."
 namespace: Microsoft.Dynamics.CRM
 description: "Represents the enumerator for the entity key status when the index creation job is in progress. " 

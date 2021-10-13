@@ -4,13 +4,13 @@ name: "ImportSolution"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: fcae8173-c927-45a0-9787-e52f0751028c
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse ImportSolution Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Imports a solution.  "

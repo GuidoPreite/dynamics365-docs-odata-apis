@@ -4,13 +4,13 @@ name: "LastFiscalYear"
 type: queryfunction
 metadata: 
   title: "Microsoft Dataverse LastFiscalYear Query Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 77c24f91-ea20-4326-b338-bc503889d9f4
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse LastFiscalYear Query Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Query function to evaluate whether the value is within the last fiscal year. "

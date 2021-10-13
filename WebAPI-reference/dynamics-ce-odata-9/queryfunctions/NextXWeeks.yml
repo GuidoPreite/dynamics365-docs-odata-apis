@@ -4,13 +4,13 @@ name: "NextXWeeks"
 type: queryfunction
 metadata: 
   title: "Microsoft Dataverse NextXWeeks Query Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 801c19f6-1eb1-43db-943b-65f7221520e8
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse NextXWeeks Query Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Query function to evaluate whether the value is in the next X weeks.  "

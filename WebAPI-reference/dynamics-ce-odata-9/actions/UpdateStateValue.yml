@@ -4,13 +4,13 @@ name: "UpdateStateValue"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 4359ccba-f373-41f5-a859-8d278c0b34c8
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse UpdateStateValue Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Updates an option set value in for a StateAttributeMetadata attribute.  "

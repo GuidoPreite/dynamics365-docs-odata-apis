@@ -4,13 +4,13 @@ name: "LookupEntityResponse"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse LookupEntityResponse ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 28eddc1a-f718-484e-9951-b1fa84a09cec
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API LookupEntityResponse ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.

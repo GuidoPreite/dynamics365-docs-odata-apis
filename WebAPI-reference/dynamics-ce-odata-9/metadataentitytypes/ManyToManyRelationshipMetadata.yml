@@ -4,13 +4,13 @@ name: "ManyToManyRelationshipMetadata"
 type: metadataentitytype
 metadata: 
   title: "Microsoft Dataverse ManyToManyRelationshipMetadata Metadata EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: b30b1bce-8103-4cee-b6fc-e0ce19b02a5f
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse ManyToManyRelationshipMetadata metadata entitytype."
 header: 
   description: "Contains the metadata for a many-to-many entity relationship."

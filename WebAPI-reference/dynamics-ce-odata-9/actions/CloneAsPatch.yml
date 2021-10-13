@@ -4,13 +4,13 @@ name: "CloneAsPatch"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 98223e6e-4a39-4cfc-bb32-2a153e4f9ae8
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse CloneAsPatch Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Creates a solution patch from a managed or unmanaged solution."

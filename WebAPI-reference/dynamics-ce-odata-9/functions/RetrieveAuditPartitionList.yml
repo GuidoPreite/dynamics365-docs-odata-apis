@@ -4,13 +4,13 @@ name: "RetrieveAuditPartitionList"
 type: function
 metadata: 
   title: "Microsoft Dataverse RetrieveAuditPartitionList Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 2a086267-dbd2-4c24-81d4-ba8fbb1e2262
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse RetrieveAuditPartitionList Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Retrieves the list of database partitions that are used to store audited history data.  "

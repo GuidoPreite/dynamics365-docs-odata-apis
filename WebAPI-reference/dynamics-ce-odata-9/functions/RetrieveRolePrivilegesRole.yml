@@ -4,13 +4,13 @@ name: "RetrieveRolePrivilegesRole"
 type: function
 metadata: 
   title: "Microsoft Dataverse RetrieveRolePrivilegesRole Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: d8e7052d-3fec-4b2b-a967-a647f9caf322
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse RetrieveRolePrivilegesRole Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Retrieves the privileges that are assigned to the specified role.  "

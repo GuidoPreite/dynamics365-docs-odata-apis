@@ -4,13 +4,13 @@ name: "ApplicationUserSolution"
 type: solution
 metadata: 
   title: "Microsoft Dataverse ApplicationUserSolution Solution Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 31ed80ab-8352-4195-9ab2-918d02770101
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse ApplicationUserSolution Solution."
 namespace: Microsoft.Dynamics.CRM
 header:

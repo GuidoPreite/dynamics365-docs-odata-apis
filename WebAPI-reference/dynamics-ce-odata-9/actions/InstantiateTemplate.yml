@@ -4,13 +4,13 @@ name: "InstantiateTemplate"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 04c8d886-e4ce-495e-b085-743e3a4cf69b
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse InstantiateTemplate Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Creates an email message from a template (email template).  "

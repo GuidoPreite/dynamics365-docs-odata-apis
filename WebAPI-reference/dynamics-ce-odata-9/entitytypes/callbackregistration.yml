@@ -4,13 +4,13 @@ name: "callbackregistration"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: be73a724-9337-450b-a821-bbf66c6d05a6
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse callbackregistration entitytype."
 description: "Callback Registration that stores configuration."
 header:
@@ -66,19 +66,19 @@ properties:
       isreadonly: false
       options:
         - value: 1
-          label: "Create"
+          label: "Added"
         - value: 2
-          label: "Delete"
+          label: "Deleted"
         - value: 3
-          label: "Update"
+          label: "Modified"
         - value: 4
-          label: "Create or Update"
+          label: "Added or Modified"
         - value: 5
-          label: "Create or Delete"
+          label: "Added or Deleted"
         - value: 6
-          label: "Update or Delete"
+          label: "Modified or Deleted"
         - value: 7
-          label: "Create or Update or Delete"
+          label: "Added or Modified or Deleted"
     - name: modifiedon
       type: Edm.DateTimeOffset
       display_name: "Modified On"
@@ -105,11 +105,11 @@ properties:
       isreadonly: false
       options:
         - value: 1
-          label: "Triggering User"
+          label: "Modifying user"
         - value: 2
-          label: "Record Owner"
+          label: "Row owner"
         - value: 3
-          label: "Process Owner"
+          label: "Flow owner"
     - name: runtimeintegrationproperties
       type: Edm.String
       display_name: "Runtime Integration Properties"
@@ -135,6 +135,12 @@ properties:
       type: Edm.String
       display_name: "SDK Message Name"
       description: "Name of the SDK message the subscriber is interested in"
+      iscomputed: false
+      isreadonly: false
+    - name: softdeletestatus
+      type: Edm.Int32
+      display_name: "Soft Delete Status"
+      description: "For internal use only. Holds soft delete information."
       iscomputed: false
       isreadonly: false
     - name: url

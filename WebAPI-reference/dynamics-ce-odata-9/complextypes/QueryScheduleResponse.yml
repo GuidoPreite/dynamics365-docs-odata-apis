@@ -4,13 +4,13 @@ name: "QueryScheduleResponse"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse QueryScheduleResponse ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 8ea5f8ac-5e96-4f58-8d11-43b8226fc9ac
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API QueryScheduleResponse ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.

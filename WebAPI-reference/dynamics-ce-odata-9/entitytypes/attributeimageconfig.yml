@@ -4,13 +4,13 @@ name: "attributeimageconfig"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: d76c1550-a368-4c13-a04e-e50c871b70da
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse attributeimageconfig entitytype."
 description: "Store configuration for each image attribute"
 header:

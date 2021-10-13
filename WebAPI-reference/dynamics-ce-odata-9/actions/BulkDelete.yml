@@ -4,13 +4,13 @@ name: "BulkDelete"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: bae1666e-bfbf-492d-8285-8616930acc85
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse BulkDelete Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Submits a bulk delete job that deletes selected records in bulk. This job runs asynchronously in the background without blocking other activities."

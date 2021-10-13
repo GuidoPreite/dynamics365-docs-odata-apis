@@ -4,13 +4,13 @@ name: "msdyn_analysisresult"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 0702b2f1-cee7-4a5c-811b-c00a5c0c5737
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse msdyn_analysisresult entitytype."
 # This entity doesn't have a description
 header:

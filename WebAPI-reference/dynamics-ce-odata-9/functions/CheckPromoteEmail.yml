@@ -4,13 +4,13 @@ name: "CheckPromoteEmail"
 type: function
 metadata: 
   title: "Microsoft Dataverse CheckPromoteEmail Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 0b7b1355-2da3-47ac-976d-5e694a1b81b2
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse CheckPromoteEmail Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Contains the data that is needed to check whether the incoming email message should be promoted to the Microsoft Dynamics 365 system. "

@@ -4,13 +4,13 @@ name: "ReassignObjectsSystemUser"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: d074eb20-2d38-4da2-b9a6-1251d79ef0cd
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse ReassignObjectsSystemUser Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Reassigns all records that are owned by a specified user to another security principal (user or team). "

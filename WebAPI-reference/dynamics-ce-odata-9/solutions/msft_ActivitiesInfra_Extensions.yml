@@ -4,13 +4,13 @@ name: "msft_ActivitiesInfra_Extensions"
 type: solution
 metadata: 
   title: "Microsoft Dataverse msft_ActivitiesInfra_Extensions Solution Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 35e9c6e7-e759-4117-ad21-1d55f0b7b051
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse msft_ActivitiesInfra_Extensions Solution."
 namespace: Microsoft.Dynamics.CRM
 header:

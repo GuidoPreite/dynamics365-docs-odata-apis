@@ -4,13 +4,13 @@ name: "customapirequestparameter"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 9b91a72e-61a7-4cb9-9049-ee31f41b55d4
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse customapirequestparameter entitytype."
 description: "Entity that defines a request parameter for a custom API"
 header:
@@ -333,7 +333,7 @@ solutions:
   solution_items:
   - type: Microsoft.Dynamics.CRM.msft_CustomAPIFramework
     description: ""
-# This entity has no remarks.
+# There are no remarks for this entity.
 href_see_also:
 - text: "Use the Microsoft Dataverse Web API"
   href: "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/overview"

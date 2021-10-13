@@ -4,13 +4,13 @@ name: "LookupFormat"
 type: enumtype
 metadata: 
   title: "Microsoft Dataverse LookupFormat EnumType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: b819357c-2050-42fa-bca4-247ccc8b3a2c
   author: "kumarVivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API LookupFormat ComplexType."
 namespace: Microsoft.Dynamics.CRM
 description: "Not Found" 

@@ -4,13 +4,13 @@ name: "RetrieveAllEntitiesResponse"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse RetrieveAllEntitiesResponse ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: d6190e8e-72d7-409e-b752-0d5e7361d999
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API RetrieveAllEntitiesResponse ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.

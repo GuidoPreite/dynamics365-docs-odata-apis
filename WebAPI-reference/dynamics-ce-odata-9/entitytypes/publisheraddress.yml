@@ -4,13 +4,13 @@ name: "publisheraddress"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: cab09bfd-d731-4450-9a43-feb53775e824
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse publisheraddress entitytype."
 description: "Address and shipping information. Used to store additional addresses for a publisher."
 header:

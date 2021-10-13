@@ -4,13 +4,13 @@ name: "slakpiinstance"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: e44bf0cb-d6f9-4f6d-b75b-027c955c87a2
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse slakpiinstance entitytype."
 description: "Service level agreement (SLA) key performance indicator (KPI) instance that is tracked for an individual case"
 header:

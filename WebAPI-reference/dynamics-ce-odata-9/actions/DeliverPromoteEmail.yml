@@ -4,13 +4,13 @@ name: "DeliverPromoteEmail"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: e317f518-03de-4119-bc9c-e4b5ec0a6194
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse DeliverPromoteEmail Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Creates an email activity record from the specified email message  "

@@ -4,13 +4,13 @@ name: "msdyn_DeleteCalendarResponse"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse msdyn_DeleteCalendarResponse ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: d81061e3-52d4-4140-97a0-dfd5b3fb2ca5
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API msdyn_DeleteCalendarResponse ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.
@@ -18,7 +18,7 @@ description: ""
 properties:
   description: "The properties of a complex type contain the structured data of the type."
   property_items:
-  - name: InnerCalendarId
+  - name: InnerCalendarIds
     type: Edm.String
     nullable: true
     unicode: false

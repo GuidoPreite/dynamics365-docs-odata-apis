@@ -4,13 +4,13 @@ name: "systemuser"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: eab4e150-fafa-40a4-b929-4a6fc08d5cdd
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse systemuser entitytype."
 description: "Person with access to the Microsoft CRM system and who owns objects in the Microsoft CRM database."
 header:
@@ -23,6 +23,7 @@ header:
   - POST
   - GET
   - PATCH
+  - DELETE
 namespace: Microsoft.Dynamics.CRM
 properties:
   description: "Properties represent fields of data stored in the entity.Some properties are read-only."
@@ -396,6 +397,17 @@ properties:
       description: "Type a default folder name for the user's OneDrive For Business location."
       iscomputed: false
       isreadonly: true
+    - name: deletedstate
+      type: Edm.Int32
+      display_name: ""
+      description: "User delete state"
+      iscomputed: false
+      isreadonly: true
+      options:
+        - value: 0
+          label: "Not deleted"
+        - value: 1
+          label: "Soft deleted"
     - name: disabledreason
       type: Edm.String
       display_name: "Disabled Reason"

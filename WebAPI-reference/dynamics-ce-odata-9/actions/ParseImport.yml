@@ -4,13 +4,13 @@ name: "ParseImport"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: c54a6010-5c0e-4bf7-b820-6b4fffad25f6
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse ParseImport Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Submits an asynchronous job that parses all import files that are associated with the specified import (data import). "

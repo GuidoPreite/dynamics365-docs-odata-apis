@@ -4,13 +4,13 @@ name: "RetrievePrincipalAttributePrivileges"
 type: function
 metadata: 
   title: "Microsoft Dataverse RetrievePrincipalAttributePrivileges Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 8319dc42-e40c-4888-9918-a54f6def7326
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse RetrievePrincipalAttributePrivileges Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Retrieves all the secured attribute privileges a user or team has through direct or indirect (through team membership) associations with the FieldSecurityProfile entity. "

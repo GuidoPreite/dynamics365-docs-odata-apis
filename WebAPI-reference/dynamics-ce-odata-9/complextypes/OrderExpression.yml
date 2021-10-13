@@ -4,13 +4,13 @@ name: "OrderExpression"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse OrderExpression ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: bad0ed0c-af0c-4b7b-bf6e-4a6cf17f0f2a
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API OrderExpression ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.

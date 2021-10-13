@@ -4,13 +4,13 @@ name: "RetrieveActivePath"
 type: function
 metadata: 
   title: "Microsoft Dataverse RetrieveActivePath Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 5502e57f-f7f8-4b24-a3eb-b29f1622fe03
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse RetrieveActivePath Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Retrieves a collection of stages currently in the active path for a business process flow instance."

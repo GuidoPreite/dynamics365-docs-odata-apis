@@ -4,13 +4,13 @@ name: "RollupType"
 type: enumtype
 metadata: 
   title: "Microsoft Dataverse RollupType EnumType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 9058a7a6-5697-45e0-9ec6-6b99727221c8
   author: "kumarVivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API RollupType ComplexType."
 namespace: Microsoft.Dynamics.CRM
 description: "The possible values for the RollupType property in the Rollup Function, which you use to retrieve all the entity records for a specified record. " 

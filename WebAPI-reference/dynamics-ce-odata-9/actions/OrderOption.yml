@@ -4,13 +4,13 @@ name: "OrderOption"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 2c45b0b9-e98b-472f-a124-0e69b4f27e07
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse OrderOption Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Sets the order for an option set.  "

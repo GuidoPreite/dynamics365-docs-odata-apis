@@ -4,13 +4,13 @@ name: "Validate"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 86e62035-e5f5-4890-8624-02d3ab03b46b
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Validate Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Verifies that an appointment or service appointment (service activity) has valid available resources for the activity, duration, and site, as appropriate.  "

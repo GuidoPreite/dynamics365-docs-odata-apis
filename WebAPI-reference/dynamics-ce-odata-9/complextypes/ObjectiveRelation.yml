@@ -4,13 +4,13 @@ name: "ObjectiveRelation"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse ObjectiveRelation ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: b5272367-1be3-4f53-b975-5384a8bd7c11
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API ObjectiveRelation ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.

@@ -4,13 +4,13 @@ name: "flowmachinegroup"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: a6b0dab8-42a4-417d-abb7-83deb4c403cd
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse flowmachinegroup entitytype."
 # This entity doesn't have a description
 header:
@@ -321,7 +321,7 @@ solutions:
   solution_items:
   - type: Microsoft.Dynamics.CRM.MicrosoftFlowExtensionsCore
     description: ""
-# This entity has no remarks.
+# There are no remarks for this entity.
 href_see_also:
 - text: "Use the Microsoft Dataverse Web API"
   href: "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/overview"

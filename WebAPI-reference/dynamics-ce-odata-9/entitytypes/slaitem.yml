@@ -4,13 +4,13 @@ name: "slaitem"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 3dcb4125-028d-44a4-874f-62eeef593d62
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse slaitem entitytype."
 description: "Contains information about a tracked support KPI for a specific customer."
 header:

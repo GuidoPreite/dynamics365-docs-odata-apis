@@ -4,13 +4,13 @@ name: "OrganizationState"
 type: enumtype
 metadata: 
   title: "Microsoft Dataverse OrganizationState EnumType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: a868c7f0-af3d-4cac-9244-27e8ca3178e3
   author: "kumarVivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API OrganizationState ComplexType."
 namespace: Microsoft.Dynamics.CRM
 description: "Describes the state of the organization. " 

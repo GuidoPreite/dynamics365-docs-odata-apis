@@ -4,13 +4,13 @@ name: "MemoAttributeMetadata"
 type: metadataentitytype
 metadata: 
   title: "Microsoft Dataverse MemoAttributeMetadata Metadata EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 247665cf-91b5-4205-a581-760f4befba74
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse MemoAttributeMetadata metadata entitytype."
 header: 
   description: "Contains the metadata for the attribute type Memo."
@@ -86,6 +86,9 @@ properties:
   - name: Format
     type: Microsoft.Dynamics.CRM.StringFormat
     description: "The format options for the memo attribute."
+  - name: FormatName
+    type: Microsoft.Dynamics.CRM.MemoFormatName
+    description: ""
   - name: HasChanged
     type: Edm.Boolean
     inherited_from: Microsoft.Dynamics.CRM.MetadataBase
@@ -223,6 +226,10 @@ properties:
     type: Edm.String
     inherited_from: Microsoft.Dynamics.CRM.AttributeMetadata
     description: "The schema name for the attribute."
+  - name: Settings
+    type: Microsoft.Dynamics.CRM.EntitySetting
+    inherited_from: Microsoft.Dynamics.CRM.AttributeMetadata
+    description: ""
   - name: SourceType
     type: Edm.Int32
     inherited_from: Microsoft.Dynamics.CRM.AttributeMetadata

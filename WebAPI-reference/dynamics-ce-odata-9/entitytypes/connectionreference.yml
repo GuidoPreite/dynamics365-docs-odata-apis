@@ -4,13 +4,13 @@ name: "connectionreference"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 4d6add5e-bed8-4125-96b0-45678c7e89df
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse connectionreference entitytype."
 # This entity doesn't have a description
 header:
@@ -268,6 +268,9 @@ collection_valued_navigation_properties:
   - name: connectionreference_SyncErrors
     type: Microsoft.Dynamics.CRM.syncerror
     partner: regardingobjectid_connectionreference
+  - name: msdyn_AIConfiguration_ConnectionReference
+    type: Microsoft.Dynamics.CRM.msdyn_aiconfiguration
+    partner: msdyn_ConnectionReferenceId
 # This entity has no derived entities.
 operations:
   description: "The following operations can be used with the connectionreference entity type."

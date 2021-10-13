@@ -4,13 +4,13 @@ name: "Merge"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 6acc5dd1-0570-4550-82be-db15d6992068
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Merge Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Merges the information from two entity records of the same type. "

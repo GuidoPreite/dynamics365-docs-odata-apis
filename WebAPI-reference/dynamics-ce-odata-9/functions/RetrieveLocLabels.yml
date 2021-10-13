@@ -4,13 +4,13 @@ name: "RetrieveLocLabels"
 type: function
 metadata: 
   title: "Microsoft Dataverse RetrieveLocLabels Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: e5d6d06d-f872-4551-98cd-519393af4fe5
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse RetrieveLocLabels Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Retrieves localized labels for a limited set of entity attributes."

@@ -4,13 +4,13 @@ name: "conversationtranscript"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 0b2ab715-7486-4428-b36d-61df53230374
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse conversationtranscript entitytype."
 description: "Contains the transcripts of conversations between participants such as customers, Virtual Agents or Human agents."
 header:
@@ -253,7 +253,7 @@ solutions:
     description: "For internal use, by the Power Virtual Agents services only."
   - type: Microsoft.Dynamics.CRM.PowerVirtualAgentsCommon
     description: "For internal use, by the Power Virtual Agent services only."
-# This entity has no remarks.
+# There are no remarks for this entity.
 href_see_also:
 - text: "Use the Microsoft Dataverse Web API"
   href: "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/overview"

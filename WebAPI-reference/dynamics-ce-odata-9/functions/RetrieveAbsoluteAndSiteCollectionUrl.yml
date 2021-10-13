@@ -4,13 +4,13 @@ name: "RetrieveAbsoluteAndSiteCollectionUrl"
 type: function
 metadata: 
   title: "Microsoft Dataverse RetrieveAbsoluteAndSiteCollectionUrl Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 804b8fbf-3765-41c0-9168-662ccd744544
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse RetrieveAbsoluteAndSiteCollectionUrl Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Retrieves the absolute URL and the site collection URL for a SharePoint location record in Microsoft Dynamics 365. "

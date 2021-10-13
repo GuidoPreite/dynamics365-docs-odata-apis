@@ -4,13 +4,13 @@ name: "DependencyDepth"
 type: enumtype
 metadata: 
   title: "Microsoft Dataverse DependencyDepth EnumType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 51c6f4d8-b5b1-4630-9a04-7a8725823d68
   author: "kumarVivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API DependencyDepth ComplexType."
 namespace: Microsoft.Dynamics.CRM
 description: "Not Found" 

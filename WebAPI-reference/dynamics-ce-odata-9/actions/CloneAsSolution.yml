@@ -4,13 +4,13 @@ name: "CloneAsSolution"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 96f91a65-49e3-4943-8127-51b663e205a2
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse CloneAsSolution Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Creates a new copy of an unmanged solution that contains the original solution plus all of its patches."

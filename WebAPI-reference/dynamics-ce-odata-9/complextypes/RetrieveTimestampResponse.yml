@@ -4,13 +4,13 @@ name: "RetrieveTimestampResponse"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse RetrieveTimestampResponse ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 95870885-3790-49b8-bc38-1af4819d968a
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API RetrieveTimestampResponse ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.

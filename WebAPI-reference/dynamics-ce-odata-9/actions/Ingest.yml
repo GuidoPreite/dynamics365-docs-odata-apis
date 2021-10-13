@@ -4,13 +4,13 @@ name: "Ingest"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: f299050e-1394-495d-b685-ee94f16fb619
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Ingest Action."
 namespace: Microsoft.Dynamics.CRM
 # This Action has no description.
@@ -34,7 +34,7 @@ return_type:
   nullable: false
   type: Microsoft.Dynamics.CRM.IngestResponse
 # This action has no identified unbound entities.
-# This action has no remarks.
+# There are no remarks for this action.
 href_see_also:
 - text: "Use the Microsoft Dataverse Web API"
   href: "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/overview"

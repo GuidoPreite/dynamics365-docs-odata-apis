@@ -4,13 +4,13 @@ name: "CascadeGrantRevokeAccessVersionTracker"
 type: solution
 metadata: 
   title: "Microsoft Dataverse CascadeGrantRevokeAccessVersionTracker Solution Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 3c006d2f-4a76-4268-9ca5-ceca8b6e5adc
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse CascadeGrantRevokeAccessVersionTracker Solution."
 namespace: Microsoft.Dynamics.CRM
 header:

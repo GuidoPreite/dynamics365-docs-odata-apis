@@ -4,13 +4,13 @@ name: "appconfigmaster"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 088db9d7-e994-4451-bade-a810f739c2c0
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse appconfigmaster entitytype."
 description: "Contains the master list of all properties that can be customized for apps in Dynamics 365. For internal use only."
 header:

@@ -4,13 +4,13 @@ name: "QueryExpression"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse QueryExpression ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 1fafe641-bea4-4033-869c-593539b5a497
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API QueryExpression ComplexType."
 namespace: Microsoft.Dynamics.CRM
 header:

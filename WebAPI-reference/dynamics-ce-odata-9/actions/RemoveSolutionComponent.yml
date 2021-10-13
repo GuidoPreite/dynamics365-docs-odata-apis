@@ -4,13 +4,13 @@ name: "RemoveSolutionComponent"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: fc7c8ee7-75ee-46a8-bc3a-fed182443f97
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse RemoveSolutionComponent Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Removes a component from an unmanaged solution. "

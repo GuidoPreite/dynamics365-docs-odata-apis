@@ -4,13 +4,13 @@ name: "LastWeek"
 type: queryfunction
 metadata: 
   title: "Microsoft Dataverse LastWeek Query Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 7ab20328-63bc-43ec-b4df-5169ce7624ab
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse LastWeek Query Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Query function to evaluate whether the value is within the last week. "

@@ -4,13 +4,13 @@ name: "RetrieveUserPrivilegesResponse"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse RetrieveUserPrivilegesResponse ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: f5a2115a-b34b-48b3-9beb-c0c24685314d
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API RetrieveUserPrivilegesResponse ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.

@@ -4,13 +4,13 @@ name: "DeprovisionLanguage"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: f0ee0ad3-ed26-4ec3-8306-5fa3fbe50460
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse DeprovisionLanguage Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Deprovisions a language. "

@@ -4,13 +4,13 @@ name: "sdkmessage"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 5cf179ce-706b-4a59-8f1d-4c629174e452
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse sdkmessage entitytype."
 description: "Message that is supported by the SDK."
 header:

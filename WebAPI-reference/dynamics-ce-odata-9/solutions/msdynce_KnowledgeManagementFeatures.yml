@@ -4,13 +4,13 @@ name: "Knowledge Management Features"
 type: solution
 metadata: 
   title: "Microsoft Dataverse Knowledge Management Features Solution Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 3b9765d2-80b0-4c70-b93e-3b208c16def0
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Knowledge Management Features Solution."
 namespace: Microsoft.Dynamics.CRM
 header:

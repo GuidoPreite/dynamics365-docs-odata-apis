@@ -4,13 +4,13 @@ name: "Power Virtual Agents"
 type: solution
 metadata: 
   title: "Microsoft Dataverse Power Virtual Agents Solution Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 7a7f680a-0450-4c2f-aa0e-5967c817f4e8
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Power Virtual Agents Solution."
 namespace: Microsoft.Dynamics.CRM
 header:

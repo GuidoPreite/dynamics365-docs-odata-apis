@@ -4,13 +4,13 @@ name: "mailbox"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 55719fd5-c785-46af-8a59-ab9730f1ef2c
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse mailbox entitytype."
 # This entity doesn't have a description
 header:
@@ -188,7 +188,7 @@ properties:
       isreadonly: false
     - name: exchangesyncstatexmlfileref
       type: Edm.Binary
-      display_name: ""
+      display_name: "ExchangeSyncStateXml File Ref"
       description: "Reference to the ExchangeSyncStateXml file on Azure."
       iscomputed: false
       isreadonly: true
@@ -775,8 +775,8 @@ lookup_properties:
     description: "Unique identifier for the user that owns the record."
   - name: _regardingobjectid_value
     single_valued_navigation_property:
-    - regardingobjectid
     - regardingobjectid_queue
+    - regardingobjectid
     description: "Choose the user associated to the mailbox."
 single_valued_navigation_properties:
   description: "Single-valued navigation properties represent lookup fields where a single entity can be referenced. Each single-valued navigation property has a corresponding partner collection-valued navigation property on the related entity."

@@ -4,13 +4,13 @@ name: "AddToQueue"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: b0871fcd-bf63-41dc-81c8-a6dd2df1a39e
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse AddToQueue Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Moves an entity record from a source queue to a destination queue."

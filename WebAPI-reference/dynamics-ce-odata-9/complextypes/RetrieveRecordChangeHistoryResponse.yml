@@ -4,13 +4,13 @@ name: "RetrieveRecordChangeHistoryResponse"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse RetrieveRecordChangeHistoryResponse ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: bddb0105-b160-4627-a51d-f75c30bb83c4
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API RetrieveRecordChangeHistoryResponse ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.

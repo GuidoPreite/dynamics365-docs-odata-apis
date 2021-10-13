@@ -4,13 +4,13 @@ name: "AssociatedMenuConfiguration"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse AssociatedMenuConfiguration ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: f177bddc-93eb-4473-b5ef-61af5041568f
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API AssociatedMenuConfiguration ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.

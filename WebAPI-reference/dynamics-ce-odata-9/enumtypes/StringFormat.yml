@@ -4,13 +4,13 @@ name: "StringFormat"
 type: enumtype
 metadata: 
   title: "Microsoft Dataverse StringFormat EnumType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: f466a362-05ba-472a-a48c-54ea9a84d8a7
   author: "kumarVivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API StringFormat ComplexType."
 namespace: Microsoft.Dynamics.CRM
 description: "Describes the formatting of a string attribute for the StringAttributeMetadata.Format property. (Deprecated)" 
@@ -44,6 +44,9 @@ members:
   - description: ""
     name: "Json"
     value: 8
+  - description: ""
+    name: "RichText"
+    value: 9
 usedby:
   description: "The following use the StringFormat EnumType."
   usedby_items:

@@ -4,13 +4,13 @@ name: "ExportSolutionAsyncResponse"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse ExportSolutionAsyncResponse ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 27431c9a-9b96-4bb9-871f-32b061995e8b
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API ExportSolutionAsyncResponse ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.

@@ -4,13 +4,13 @@ name: "entitydataprovider"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 3b1b4bfb-e42e-42ee-b008-6ec78c02f8de
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse entitydataprovider entitytype."
 description: "Developers can register plug-ins on a data provider to enable data access for virtual entities in the system."
 header:
@@ -59,6 +59,12 @@ properties:
       type: Edm.String
       display_name: "Data Source Entity Logical Name"
       description: "When creating a Data Provider, the end user must select the name of the Data Source entity that will be created for the provider."
+      iscomputed: false
+      isreadonly: false
+    - name: deletemultipleplugin
+      type: Edm.Guid
+      display_name: "Contains the deletemultipleplugin id that should be run when DeleteMultiple is invoked"
+      description: "Contains the deletemultipleplugin id that should be run when DeleteMultiple is invoked"
       iscomputed: false
       isreadonly: false
     - name: deleteplugin

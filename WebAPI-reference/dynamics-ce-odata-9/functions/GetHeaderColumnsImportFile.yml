@@ -4,13 +4,13 @@ name: "GetHeaderColumnsImportFile"
 type: function
 metadata: 
   title: "Microsoft Dataverse GetHeaderColumnsImportFile Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 286353a0-b264-429c-98f5-1d7bb4f67acd
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse GetHeaderColumnsImportFile Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Retrieves the source-file column headings; or retrieve the system-generated column headings if the source file does not contain column headings. "

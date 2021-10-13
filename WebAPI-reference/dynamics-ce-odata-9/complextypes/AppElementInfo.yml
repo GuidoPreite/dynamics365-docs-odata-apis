@@ -4,13 +4,13 @@ name: "AppElementInfo"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse AppElementInfo ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 9b4adb69-d790-4e7f-a24e-df342faddada
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API AppElementInfo ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.
@@ -28,6 +28,12 @@ properties:
     type: Edm.String
     nullable: true
     unicode: false
+    description: ""
+    iscollection: false
+  - name: CanvasAppType
+    type: Edm.Int32
+    nullable: true
+    unicode: true
     description: ""
     iscollection: false
   - name: ObjectName

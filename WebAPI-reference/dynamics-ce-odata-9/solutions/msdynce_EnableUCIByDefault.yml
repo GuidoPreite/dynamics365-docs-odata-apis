@@ -4,13 +4,13 @@ name: "EnableUCIByDefault"
 type: solution
 metadata: 
   title: "Microsoft Dataverse EnableUCIByDefault Solution Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: beecc072-e8f8-44b3-a2b7-23f962344cef
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse EnableUCIByDefault Solution."
 namespace: Microsoft.Dynamics.CRM
 header:

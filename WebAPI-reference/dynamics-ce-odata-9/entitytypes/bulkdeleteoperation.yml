@@ -4,13 +4,13 @@ name: "bulkdeleteoperation"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 217cf8dd-31de-4c7f-92b5-6488d32bbef7
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse bulkdeleteoperation entitytype."
 description: "User-submitted bulk deletion job."
 header:

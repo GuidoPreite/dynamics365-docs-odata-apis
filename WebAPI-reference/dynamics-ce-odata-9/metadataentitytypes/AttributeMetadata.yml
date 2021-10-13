@@ -4,13 +4,13 @@ name: "AttributeMetadata"
 type: metadataentitytype
 metadata: 
   title: "Microsoft Dataverse AttributeMetadata Metadata EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 418c8a27-99ca-45d6-9a12-2e43e5364f2e
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse AttributeMetadata metadata entitytype."
 header: 
   description: "Contains all the metadata for an entity attribute."
@@ -166,6 +166,9 @@ properties:
   - name: SchemaName
     type: Edm.String
     description: "The schema name for the attribute."
+  - name: Settings
+    type: Microsoft.Dynamics.CRM.EntitySetting
+    description: ""
   - name: SourceType
     type: Edm.Int32
     description: "A value that indicates the source type for a calculated or rollup attribute."

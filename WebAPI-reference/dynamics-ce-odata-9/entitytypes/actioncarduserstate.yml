@@ -4,13 +4,13 @@ name: "actioncarduserstate"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 4591f25d-0c8e-4e6b-8a11-144c7e5c2e4b
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse actioncarduserstate entitytype."
 # This entity doesn't have a description
 header:

@@ -4,13 +4,13 @@ name: "officegraphdocument"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: a80fdc45-3f1a-4f78-b3cb-44da64b949b0
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse officegraphdocument entitytype."
 description: "Office Graph Documents Description"
 header:

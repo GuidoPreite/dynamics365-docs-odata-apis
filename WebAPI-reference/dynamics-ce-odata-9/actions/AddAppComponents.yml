@@ -4,13 +4,13 @@ name: "AddAppComponents"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 451d5c95-de1f-4f1c-a2b6-4e263c40b21b
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse AddAppComponents Action."
 namespace: Microsoft.Dynamics.CRM
 # This Action has no description.

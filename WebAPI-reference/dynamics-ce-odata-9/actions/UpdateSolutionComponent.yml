@@ -4,13 +4,13 @@ name: "UpdateSolutionComponent"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 575c57a4-882b-459a-8c73-63499214ed0c
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse UpdateSolutionComponent Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Updates a component in an unmanaged solution."

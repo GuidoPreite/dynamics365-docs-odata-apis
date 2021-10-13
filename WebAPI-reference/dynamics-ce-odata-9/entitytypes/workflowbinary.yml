@@ -4,13 +4,13 @@ name: "workflowbinary"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 09f76969-fbe1-4c6d-b227-fe88fde5a5bc
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse workflowbinary entitytype."
 # This entity doesn't have a description
 header:
@@ -36,7 +36,7 @@ properties:
       isreadonly: true
     - name: data
       type: Edm.Binary
-      display_name: ""
+      display_name: "Data"
       description: "Azure blob storage backed file containing the binary data"
       iscomputed: false
       isreadonly: true

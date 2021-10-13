@@ -4,13 +4,13 @@ name: "OrganizationType"
 type: enumtype
 metadata: 
   title: "Microsoft Dataverse OrganizationType EnumType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 99e42930-5c24-4776-a2d7-fd2f911d700e
   author: "kumarVivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API OrganizationType ComplexType."
 namespace: Microsoft.Dynamics.CRM
 description: "Not Found" 

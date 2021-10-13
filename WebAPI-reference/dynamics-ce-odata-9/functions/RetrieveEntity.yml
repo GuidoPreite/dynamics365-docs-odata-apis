@@ -4,13 +4,13 @@ name: "RetrieveEntity"
 type: function
 metadata: 
   title: "Microsoft Dataverse RetrieveEntity Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 51e580c0-785b-4687-af86-c12e00075453
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse RetrieveEntity Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Retrieves entity metadata. "

@@ -4,13 +4,13 @@ name: "Service Level Agreement (SLA) Extension"
 type: solution
 metadata: 
   title: "Microsoft Dataverse Service Level Agreement (SLA) Extension Solution Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: ccee5e4b-5a89-4f1e-985b-46401ea77fb1
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Service Level Agreement (SLA) Extension Solution."
 namespace: Microsoft.Dynamics.CRM
 header:

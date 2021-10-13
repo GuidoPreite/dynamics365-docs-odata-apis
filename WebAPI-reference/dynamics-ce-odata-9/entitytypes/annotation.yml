@@ -4,13 +4,13 @@ name: "annotation"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 108a7d17-f416-4d6b-9045-e23a1f6c21a5
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse annotation entitytype."
 description: "Note that is attached to one or more objects, including other notes."
 header:

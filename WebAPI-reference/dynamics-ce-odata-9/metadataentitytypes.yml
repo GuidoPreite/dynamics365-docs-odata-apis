@@ -1,15 +1,15 @@
 ### YamlMime:ODataIndex
 uid: Microsoft.Dynamics.CRM.MetadataEntityTypeIndex
 name: Web API Metadata EntityType Reference
-title: "Microsoft DataverseWeb API Metadata EntityType Reference | MicrosoftDocs"
+title: "Microsoft Dataverse Web API Metadata EntityType Reference | MicrosoftDocs"
 metadata:   
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: b83784fd-5b59-46ba-82c6-4254e45dba02
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
 description: "Metadata entity types represent the types used in the Microsoft Dynamics CRM metadata model. See [Use the Web API with CRM metadata](https://msdn.microsoft.com/library/mt607833.aspx) for information about how to use these entity types. "
 in_this_section:
 - type: Microsoft.Dynamics.CRM.AttributeMetadata

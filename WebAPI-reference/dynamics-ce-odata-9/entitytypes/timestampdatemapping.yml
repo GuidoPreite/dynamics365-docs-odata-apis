@@ -4,13 +4,13 @@ name: "timestampdatemapping"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: a672a5ab-ff3e-45ab-9169-0221f25692fd
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse timestampdatemapping entitytype."
 description: "For internal use only.`"
 header:

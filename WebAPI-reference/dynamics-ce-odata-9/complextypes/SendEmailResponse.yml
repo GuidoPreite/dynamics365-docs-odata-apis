@@ -4,13 +4,13 @@ name: "SendEmailResponse"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse SendEmailResponse ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 54286c7c-d1fe-4ab2-967b-300c818a38fd
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API SendEmailResponse ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.

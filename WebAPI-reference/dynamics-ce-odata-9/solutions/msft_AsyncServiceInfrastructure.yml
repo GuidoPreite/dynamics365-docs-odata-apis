@@ -4,13 +4,13 @@ name: "Async Service Infrastructure"
 type: solution
 metadata: 
   title: "Microsoft Dataverse Async Service Infrastructure Solution Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 48eef762-29b5-441a-944b-8ee654929259
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Async Service Infrastructure Solution."
 namespace: Microsoft.Dynamics.CRM
 header:

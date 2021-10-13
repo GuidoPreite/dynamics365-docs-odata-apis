@@ -4,13 +4,13 @@ name: "principalobjectattributeaccess"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 2d9c9b60-1989-4c54-a5cf-85163f11e593
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse principalobjectattributeaccess entitytype."
 description: "Defines CRM security principals (users and teams) access rights to secured field for an entity instance."
 header:
@@ -95,14 +95,23 @@ lookup_properties:
     - objectid_queueitem
     - objectid_goal
     - objectid_solutioncomponentattributeconfiguration
+    - objectid_solutioncomponentbatchconfiguration
     - objectid_solutioncomponentconfiguration
     - objectid_solutioncomponentrelationshipconfiguration
     - objectid_package
     - objectid_stagesolutionupload
     - objectid_exportsolutionupload
+    - objectid_featurecontrolsetting
     - objectid_attributeimageconfig
     - objectid_entityimageconfig
+    - objectid_entityindex
+    - objectid_indexattributes
     - objectid_relationshipattribute
+    - objectid_catalog
+    - objectid_catalogassignment
+    - objectid_customapi
+    - objectid_customapirequestparameter
+    - objectid_customapiresponseproperty
     - objectid_provisionlanguageforuser
     - objectid_entityanalyticsconfig
     - objectid_datalakefolder
@@ -112,6 +121,7 @@ lookup_properties:
     - objectid_msdyn_dataflow
     - objectid_systemuserauthorizationchangetracker
     - objectid_serviceplan
+    - objectid_serviceplanmapping
     - objectid_applicationuser
     - objectid_connector
     - objectid_environmentvariabledefinition
@@ -122,7 +132,22 @@ lookup_properties:
     - objectid_flowsession
     - objectid_workflowbinary
     - objectid_connectionreference
+    - objectid_msdyn_aiconfiguration
+    - objectid_msdyn_aimodel
+    - objectid_msdyn_aitemplate
+    - objectid_msdyn_aifptrainingdocument
+    - objectid_msdyn_aiodimage
+    - objectid_msdyn_aiodlabel
+    - objectid_msdyn_aiodtrainingboundingbox
+    - objectid_msdyn_aiodtrainingimage
+    - objectid_msdyn_aibdataset
+    - objectid_msdyn_aibdatasetfile
+    - objectid_msdyn_aibdatasetrecord
+    - objectid_msdyn_aibdatasetscontainer
+    - objectid_msdyn_aibfile
+    - objectid_msdyn_aibfileattacheddata
     - objectid_msdyn_helppage
+    - objectid_msdyn_tour
     - objectid_msdynce_botcontent
     - objectid_conversationtranscript
     - objectid_bot
@@ -138,37 +163,21 @@ lookup_properties:
     - objectid_msdyn_knowledgeinteractioninsight
     - objectid_msdyn_knowledgesearchinsight
     - objectid_msdyn_kalanguagesetting
+    - objectid_msdyn_kbattachment
     - objectid_msdyn_kmpersonalizationsetting
     - objectid_msdyn_knowledgearticletemplate
     - objectid_msdyn_knowledgepersonalfilter
     - objectid_msdyn_knowledgesearchfilter
+    - objectid_pluginpackage
     - objectid_keyvaultreference
     - objectid_managedidentity
-    - objectid_catalog
-    - objectid_catalogassignment
-    - objectid_customapi
-    - objectid_customapirequestparameter
-    - objectid_customapiresponseproperty
+    - objectid_virtualentitymetadata
     - objectid_teammobileofflineprofilemembership
     - objectid_usermobileofflineprofilemembership
     - objectid_organizationdatasyncsubscription
     - objectid_organizationdatasyncsubscriptionentity
-    - objectid_appnotification
+    - objectid_appaction
     - objectid_msdyn_richtextfile
-    - objectid_msdyn_aiconfiguration
-    - objectid_msdyn_aimodel
-    - objectid_msdyn_aitemplate
-    - objectid_msdyn_aibdataset
-    - objectid_msdyn_aibdatasetfile
-    - objectid_msdyn_aibdatasetrecord
-    - objectid_msdyn_aibdatasetscontainer
-    - objectid_msdyn_aibfile
-    - objectid_msdyn_aibfileattacheddata
-    - objectid_msdyn_aifptrainingdocument
-    - objectid_msdyn_aiodimage
-    - objectid_msdyn_aiodlabel
-    - objectid_msdyn_aiodtrainingboundingbox
-    - objectid_msdyn_aiodtrainingimage
     - objectid_msdyn_pminferredtask
     - objectid_msdyn_pmrecording
     - objectid_msdyn_analysiscomponent
@@ -178,7 +187,8 @@ lookup_properties:
     - objectid_msdyn_solutionhealthrule
     - objectid_msdyn_solutionhealthruleargument
     - objectid_msdyn_solutionhealthruleset
-    - objectid_virtualentitymetadata
+    - objectid_msdyn_dataflowrefreshhistory
+    - objectid_msdyn_entityrefreshhistory
     description: "Unique identifier of the entity instance with shared secured field"
   - name: _organizationid_value
     single_valued_navigation_property:
@@ -201,9 +211,6 @@ single_valued_navigation_properties:
   - name: objectid_applicationuser
     type: Microsoft.Dynamics.CRM.applicationuser
     partner: applicationuser_PrincipalObjectAttributeAccesses
-  - name: objectid_appnotification
-    type: Microsoft.Dynamics.CRM.appnotification
-    partner: appnotification_PrincipalObjectAttributeAccesses
   - name: objectid_appointment
     type: Microsoft.Dynamics.CRM.appointment
     partner: appointment_principalobjectattributeaccess

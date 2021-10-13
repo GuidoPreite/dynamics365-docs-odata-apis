@@ -4,13 +4,13 @@ name: "activitypointer"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: d8413f17-5b14-41c1-bb4b-b8553945ab90
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse activitypointer entitytype."
 description: "Task performed, or to be performed, by a user. An activity is any action for which an entry can be made on a calendar."
 header:

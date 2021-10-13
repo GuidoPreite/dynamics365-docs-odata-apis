@@ -4,13 +4,13 @@ name: "exportsolutionupload"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: e570fcfe-a47b-47b8-b888-1e086408839b
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse exportsolutionupload entitytype."
 # This entity doesn't have a description
 header:
@@ -66,7 +66,7 @@ properties:
       isreadonly: false
     - name: solutionfile
       type: Edm.Binary
-      display_name: ""
+      display_name: "SolutionFile"
       description: ""
       iscomputed: false
       isreadonly: true

@@ -4,13 +4,13 @@ name: "AssociatedMenuBehavior"
 type: enumtype
 metadata: 
   title: "Microsoft Dataverse AssociatedMenuBehavior EnumType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 7ac248af-6f24-467d-a044-a7e0bc694815
   author: "kumarVivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API AssociatedMenuBehavior ComplexType."
 namespace: Microsoft.Dynamics.CRM
 description: "Describes the behavior of the associated menu for a one-to-many relationship. " 

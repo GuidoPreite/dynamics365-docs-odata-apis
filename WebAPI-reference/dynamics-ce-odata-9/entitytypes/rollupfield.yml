@@ -4,13 +4,13 @@ name: "rollupfield"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: ebcd3992-c336-4be3-918b-9c8911024aca
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse rollupfield entitytype."
 description: "Field to be rolled up to calculate the actual and in-progress values against the goal."
 header:

@@ -4,13 +4,13 @@ name: "invaliddependency"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 96c618ec-da21-48a7-9042-393d82c6f9e4
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse invaliddependency entitytype."
 description: "An invalid dependency in the CRM system."
 header:

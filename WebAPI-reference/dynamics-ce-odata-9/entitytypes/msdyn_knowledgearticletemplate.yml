@@ -4,13 +4,13 @@ name: "msdyn_knowledgearticletemplate"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 1d51d357-ef09-4fef-85bd-a16a65a41ad2
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse msdyn_knowledgearticletemplate entitytype."
 description: "Organizational Knowledge Article Template for Internal and external creation of Knowledge Articles."
 header:

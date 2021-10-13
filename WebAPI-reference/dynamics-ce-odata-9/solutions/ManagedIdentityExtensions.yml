@@ -4,13 +4,13 @@ name: "ManagedIdentityExtensions"
 type: solution
 metadata: 
   title: "Microsoft Dataverse ManagedIdentityExtensions Solution Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 24d06297-ad9a-43cb-bf70-796fc89549a4
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse ManagedIdentityExtensions Solution."
 namespace: Microsoft.Dynamics.CRM
 header:
@@ -22,9 +22,9 @@ entities:
   description: "The following entities are included in this solution."
   entity_items:
    - type: Microsoft.Dynamics.CRM.keyvaultreference
-     description: "KeyVaultReference entity"
+     description: "Contains data that refers to an Azure Key Vault containing credentials used to connect to secure web-hosted resources."
    - type: Microsoft.Dynamics.CRM.managedidentity
-     description: "ManagedIdentity entity"
+     description: "Contains data to represent an Azure Active Directory Application used to connect to secure web-hosted resources."
 # This solution includes no actions.
 # There are no remarks for this solution.
 href_see_also:

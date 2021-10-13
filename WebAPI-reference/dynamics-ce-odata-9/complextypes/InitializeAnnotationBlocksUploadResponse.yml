@@ -4,13 +4,13 @@ name: "InitializeAnnotationBlocksUploadResponse"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse InitializeAnnotationBlocksUploadResponse ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 1c35877e-e21b-4e60-b421-5ae1049a6182
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API InitializeAnnotationBlocksUploadResponse ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.

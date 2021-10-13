@@ -4,13 +4,13 @@ name: "Dataflow Solution"
 type: solution
 metadata: 
   title: "Microsoft Dataverse Dataflow Solution Solution Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 7ac0b2dc-8da9-44c4-8623-4249f7f7a390
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Dataflow Solution Solution."
 namespace: Microsoft.Dynamics.CRM
 header:

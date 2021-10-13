@@ -4,13 +4,13 @@ name: "subscriptionstatisticsoutlook"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 4113173a-a1b4-4e91-b07b-80c84c5e664a
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse subscriptionstatisticsoutlook entitytype."
 description: "Subscription Statistic Outlook"
 header:

@@ -4,13 +4,13 @@ name: "LookupDataRequest"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse LookupDataRequest ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: d8360844-1942-40f4-91c6-fdffcb3511fb
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API LookupDataRequest ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.

@@ -4,13 +4,13 @@ name: "MetadataBase"
 type: metadataentitytype
 metadata: 
   title: "Microsoft Dataverse MetadataBase Metadata EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: f942f25a-4c87-4ba7-9d3f-e0bf535eb0d0
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse MetadataBase metadata entitytype."
 header: 
   description: "An abstract EntityType for used as base type for other Metadata EntityTypes, containing common metadata information."

@@ -4,13 +4,13 @@ name: "queue"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: b1ed7e9e-4a92-4ad4-b85e-ca8f4a522cc8
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse queue entitytype."
 description: "A list of records that require action, such as accounts, activities, and cases."
 header:

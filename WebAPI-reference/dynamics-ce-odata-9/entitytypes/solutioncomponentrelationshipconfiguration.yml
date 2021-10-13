@@ -4,13 +4,13 @@ name: "solutioncomponentrelationshipconfiguration"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: e014a666-391b-4b5c-8f49-47632c37893c
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse solutioncomponentrelationshipconfiguration entitytype."
 # This entity doesn't have a description
 header:
@@ -31,6 +31,17 @@ properties:
     - name: addrelatedcomponents
       type: Edm.Boolean
       display_name: "Add Related Components"
+      description: ""
+      iscomputed: false
+      isreadonly: false
+      options:
+        - value: 1
+          label: "Yes"
+        - value: 0
+          label: "No"
+    - name: cascaderemovecomponents
+      type: Edm.Boolean
+      display_name: "Cascade Remove Components"
       description: ""
       iscomputed: false
       isreadonly: false
@@ -66,6 +77,17 @@ properties:
       description: "Date and time when the record was created."
       iscomputed: false
       isreadonly: true
+    - name: forceaddingmanagedrelatedcomponents
+      type: Edm.Boolean
+      display_name: "Force Adding Managed Related Components"
+      description: ""
+      iscomputed: false
+      isreadonly: false
+      options:
+        - value: 1
+          label: "Yes"
+        - value: 0
+          label: "No"
     - name: importsequencenumber
       type: Edm.Int32
       display_name: "Import Sequence Number"
@@ -124,6 +146,17 @@ properties:
           label: "Hard Dependency"
         - value: 1
           label: "Soft Dependency"
+    - name: respectparentrootcomponentbehavior
+      type: Edm.Boolean
+      display_name: "Respect Parent Root Component Behavior"
+      description: ""
+      iscomputed: false
+      isreadonly: false
+      options:
+        - value: 1
+          label: "Yes"
+        - value: 0
+          label: "No"
     - name: secondaryentitydependencytype
       type: Edm.Int32
       display_name: "SecondaryEntityDependencyType"

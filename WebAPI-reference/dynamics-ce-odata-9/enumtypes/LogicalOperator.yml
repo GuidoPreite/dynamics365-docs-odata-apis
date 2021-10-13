@@ -4,13 +4,13 @@ name: "LogicalOperator"
 type: enumtype
 metadata: 
   title: "Microsoft Dataverse LogicalOperator EnumType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 59eaeb04-9357-42a5-9dfa-082933b551ee
   author: "kumarVivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API LogicalOperator ComplexType."
 namespace: Microsoft.Dynamics.CRM
 description: "The possible values for an operator in a FilterExpression. " 

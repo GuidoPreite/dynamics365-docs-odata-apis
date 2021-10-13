@@ -4,13 +4,13 @@ name: "displaystring"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: a58ec880-b663-42f6-9737-6f6b7c89db1d
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse displaystring entitytype."
 description: "Customized messages for an entity that has been renamed."
 header:

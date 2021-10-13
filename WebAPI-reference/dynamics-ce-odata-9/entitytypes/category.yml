@@ -4,13 +4,13 @@ name: "category"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 37533ff7-ce6e-4ac9-ae03-a02367474749
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse category entitytype."
 description: "Entity for categorizing records to make it easier for your customers to find them on portals and through search."
 header:

@@ -4,13 +4,13 @@ name: "sdkmessageprocessingstepsecureconfig"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 7de01abe-56b3-44b3-b2c8-8408025a7230
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse sdkmessageprocessingstepsecureconfig entitytype."
 description: "Non-public custom configuration that is passed to a plug-in's constructor."
 header:

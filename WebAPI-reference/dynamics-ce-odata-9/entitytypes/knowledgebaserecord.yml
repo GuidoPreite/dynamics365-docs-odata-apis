@@ -4,13 +4,13 @@ name: "knowledgebaserecord"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 2ae1d3c8-9ae4-4a35-a0c0-3acdcd31b340
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse knowledgebaserecord entitytype."
 description: "Metadata of knowledge base (KB) articles associated with Microsoft Dynamics 365 entities."
 header:

@@ -4,13 +4,13 @@ name: "IntegerFormat"
 type: enumtype
 metadata: 
   title: "Microsoft Dataverse IntegerFormat EnumType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 4ca1517f-2574-4416-9cdf-1e15e2bd3c86
   author: "kumarVivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API IntegerFormat ComplexType."
 namespace: Microsoft.Dynamics.CRM
 description: "Describes the formatting of an integer attribute. " 

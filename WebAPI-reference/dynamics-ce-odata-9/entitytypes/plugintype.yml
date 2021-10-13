@@ -4,13 +4,13 @@ name: "plugintype"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: a75e415c-022a-4304-9c48-6dc4dfe9b698
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse plugintype entitytype."
 description: "Type that inherits from the IPlugin interface and is contained within a plug-in assembly."
 header:

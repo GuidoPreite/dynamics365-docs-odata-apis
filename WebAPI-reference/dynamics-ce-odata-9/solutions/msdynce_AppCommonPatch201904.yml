@@ -4,13 +4,13 @@ name: "Second Patch for Application Common"
 type: solution
 metadata: 
   title: "Microsoft Dataverse Second Patch for Application Common Solution Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: d52dd7b2-b54e-4476-954f-36c096c7a56b
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Second Patch for Application Common Solution."
 namespace: Microsoft.Dynamics.CRM
 header:

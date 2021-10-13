@@ -4,13 +4,13 @@ name: "asyncoperation"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: a3d5e391-3751-4d67-bb96-2d03256c9ad1
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse asyncoperation entitytype."
 description: "Process whose execution can proceed independently or in the background."
 header:
@@ -78,7 +78,7 @@ properties:
       isreadonly: false
     - name: datablobid
       type: Edm.Binary
-      display_name: ""
+      display_name: "Data File Id"
       description: "File Id for the blob url used for file storage."
       iscomputed: false
       isreadonly: true
@@ -324,6 +324,8 @@ properties:
           label: "Refresh Runtime Integration Components Async Operation"
         - value: 100
           label: "Cascade FlowSession Permissions Async Operation"
+        - value: 101
+          label: "Update Modern Flow Async Operation"
         - value: 12801
           label: "Cascade Grant or Revoke Access Version Tracking Async Operation"
         - value: 190690091
@@ -571,14 +573,23 @@ lookup_properties:
     - regardingobjectid_activitypointer
     - regardingobjectid_import
     - regardingobjectid_solutioncomponentattributeconfiguration
+    - regardingobjectid_solutioncomponentbatchconfiguration
     - regardingobjectid_solutioncomponentconfiguration
     - regardingobjectid_solutioncomponentrelationshipconfiguration
     - regardingobjectid_package
     - regardingobjectid_stagesolutionupload
     - regardingobjectid_exportsolutionupload
+    - regardingobjectid_featurecontrolsetting
     - regardingobjectid_attributeimageconfig
     - regardingobjectid_entityimageconfig
+    - regardingobjectid_entityindex
+    - regardingobjectid_indexattributes
     - regardingobjectid_relationshipattribute
+    - regardingobjectid_catalog
+    - regardingobjectid_catalogassignment
+    - regardingobjectid_customapi
+    - regardingobjectid_customapirequestparameter
+    - regardingobjectid_customapiresponseproperty
     - regardingobjectid_provisionlanguageforuser
     - regardingobjectid_entityanalyticsconfig
     - regardingobjectid_datalakefolder
@@ -588,6 +599,7 @@ lookup_properties:
     - regardingobjectid_msdyn_dataflow
     - regardingobjectid_systemuserauthorizationchangetracker
     - regardingobjectid_serviceplan
+    - regardingobjectid_serviceplanmapping
     - regardingobjectid_applicationuser
     - regardingobjectid_connector
     - regardingobjectid_environmentvariabledefinition
@@ -598,7 +610,22 @@ lookup_properties:
     - regardingobjectid_flowsession
     - regardingobjectid_workflowbinary
     - regardingobjectid_connectionreference
+    - regardingobjectid_msdyn_aiconfiguration
+    - regardingobjectid_msdyn_aimodel
+    - regardingobjectid_msdyn_aitemplate
+    - regardingobjectid_msdyn_aifptrainingdocument
+    - regardingobjectid_msdyn_aiodimage
+    - regardingobjectid_msdyn_aiodlabel
+    - regardingobjectid_msdyn_aiodtrainingboundingbox
+    - regardingobjectid_msdyn_aiodtrainingimage
+    - regardingobjectid_msdyn_aibdataset
+    - regardingobjectid_msdyn_aibdatasetfile
+    - regardingobjectid_msdyn_aibdatasetrecord
+    - regardingobjectid_msdyn_aibdatasetscontainer
+    - regardingobjectid_msdyn_aibfile
+    - regardingobjectid_msdyn_aibfileattacheddata
     - regardingobjectid_msdyn_helppage
+    - regardingobjectid_msdyn_tour
     - regardingobjectid_msdynce_botcontent
     - regardingobjectid_conversationtranscript
     - regardingobjectid_bot
@@ -614,37 +641,21 @@ lookup_properties:
     - regardingobjectid_msdyn_knowledgeinteractioninsight
     - regardingobjectid_msdyn_knowledgesearchinsight
     - regardingobjectid_msdyn_kalanguagesetting
+    - regardingobjectid_msdyn_kbattachment
     - regardingobjectid_msdyn_kmpersonalizationsetting
     - regardingobjectid_msdyn_knowledgearticletemplate
     - regardingobjectid_msdyn_knowledgepersonalfilter
     - regardingobjectid_msdyn_knowledgesearchfilter
+    - regardingobjectid_pluginpackage
     - regardingobjectid_keyvaultreference
     - regardingobjectid_managedidentity
-    - regardingobjectid_catalog
-    - regardingobjectid_catalogassignment
-    - regardingobjectid_customapi
-    - regardingobjectid_customapirequestparameter
-    - regardingobjectid_customapiresponseproperty
+    - regardingobjectid_virtualentitymetadata
     - regardingobjectid_teammobileofflineprofilemembership
     - regardingobjectid_usermobileofflineprofilemembership
     - regardingobjectid_organizationdatasyncsubscription
     - regardingobjectid_organizationdatasyncsubscriptionentity
-    - regardingobjectid_appnotification
+    - regardingobjectid_appaction
     - regardingobjectid_msdyn_richtextfile
-    - regardingobjectid_msdyn_aiconfiguration
-    - regardingobjectid_msdyn_aimodel
-    - regardingobjectid_msdyn_aitemplate
-    - regardingobjectid_msdyn_aibdataset
-    - regardingobjectid_msdyn_aibdatasetfile
-    - regardingobjectid_msdyn_aibdatasetrecord
-    - regardingobjectid_msdyn_aibdatasetscontainer
-    - regardingobjectid_msdyn_aibfile
-    - regardingobjectid_msdyn_aibfileattacheddata
-    - regardingobjectid_msdyn_aifptrainingdocument
-    - regardingobjectid_msdyn_aiodimage
-    - regardingobjectid_msdyn_aiodlabel
-    - regardingobjectid_msdyn_aiodtrainingboundingbox
-    - regardingobjectid_msdyn_aiodtrainingimage
     - regardingobjectid_msdyn_pminferredtask
     - regardingobjectid_msdyn_pmrecording
     - regardingobjectid_msdyn_analysiscomponent
@@ -654,7 +665,8 @@ lookup_properties:
     - regardingobjectid_msdyn_solutionhealthrule
     - regardingobjectid_msdyn_solutionhealthruleargument
     - regardingobjectid_msdyn_solutionhealthruleset
-    - regardingobjectid_virtualentitymetadata
+    - regardingobjectid_msdyn_dataflowrefreshhistory
+    - regardingobjectid_msdyn_entityrefreshhistory
     description: "Unique identifier of the object with which the system job is associated."
   - name: _workflowactivationid_value
     single_valued_navigation_property:
@@ -711,9 +723,6 @@ single_valued_navigation_properties:
   - name: regardingobjectid_applicationuser
     type: Microsoft.Dynamics.CRM.applicationuser
     partner: applicationuser_AsyncOperations
-  - name: regardingobjectid_appnotification
-    type: Microsoft.Dynamics.CRM.appnotification
-    partner: appnotification_AsyncOperations
   - name: regardingobjectid_appointment
     type: Microsoft.Dynamics.CRM.appointment
     partner: Appointment_AsyncOperations

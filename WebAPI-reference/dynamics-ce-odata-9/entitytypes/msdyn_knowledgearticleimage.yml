@@ -4,13 +4,13 @@ name: "msdyn_knowledgearticleimage"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 88de53e6-6d54-4c89-b82e-2ec47499cc71
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse msdyn_knowledgearticleimage entitytype."
 # This entity doesn't have a description
 header:
@@ -48,7 +48,7 @@ properties:
       isreadonly: true
     - name: msdyn_blobfile
       type: Edm.Binary
-      display_name: ""
+      display_name: "BlobFile"
       description: "Blob Image Attribute"
       iscomputed: false
       isreadonly: true
@@ -135,6 +135,8 @@ lookup_properties:
     single_valued_navigation_property:
     - modifiedonbehalfby
     description: "Unique identifier of the delegate user who modified the record."
+  - name: _msdyn_parententityrecordid_value
+    description: "Parent entity record ID"
   - name: _msdyn_parentknowledgearticleid_value
     single_valued_navigation_property:
     - msdyn_parentknowledgearticleid

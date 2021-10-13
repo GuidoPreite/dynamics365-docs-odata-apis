@@ -4,13 +4,13 @@ name: "webresource"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 0f732d46-1be8-42e4-abb0-24ed633958ac
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse webresource entitytype."
 description: "Data equivalent to files used in Web development. Web resources provide client-side components that are used to provide custom user interface elements."
 header:
@@ -63,7 +63,7 @@ properties:
       isreadonly: false
     - name: contentfileref
       type: Edm.Binary
-      display_name: ""
+      display_name: "ContentFileRef"
       description: "Reference to the content file on Azure."
       iscomputed: false
       isreadonly: true
@@ -81,7 +81,7 @@ properties:
       isreadonly: false
     - name: contentjsonfileref
       type: Edm.Binary
-      display_name: ""
+      display_name: "ContentJsonFileRef"
       description: "Reference to the Json content file on Azure."
       iscomputed: false
       isreadonly: true

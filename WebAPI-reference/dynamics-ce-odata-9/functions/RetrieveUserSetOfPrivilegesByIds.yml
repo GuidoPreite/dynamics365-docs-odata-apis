@@ -4,13 +4,13 @@ name: "RetrieveUserSetOfPrivilegesByIds"
 type: function
 metadata: 
   title: "Microsoft Dataverse RetrieveUserSetOfPrivilegesByIds Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 805053e9-b6f0-4836-8c48-26a7833241e5
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse RetrieveUserSetOfPrivilegesByIds Function."
 namespace: Microsoft.Dynamics.CRM
 description: ""

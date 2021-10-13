@@ -4,13 +4,13 @@ name: "IntegerAttributeMetadata"
 type: metadataentitytype
 metadata: 
   title: "Microsoft Dataverse IntegerAttributeMetadata Metadata EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 953d0bcd-855d-4f75-925c-c2e9ac04e858
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse IntegerAttributeMetadata metadata entitytype."
 header: 
   description: "Contains the metadata for a Integer attribute."
@@ -223,6 +223,10 @@ properties:
     type: Edm.String
     inherited_from: Microsoft.Dynamics.CRM.AttributeMetadata
     description: "The schema name for the attribute."
+  - name: Settings
+    type: Microsoft.Dynamics.CRM.EntitySetting
+    inherited_from: Microsoft.Dynamics.CRM.AttributeMetadata
+    description: ""
   - name: SourceType
     type: Edm.Int32
     inherited_from: Microsoft.Dynamics.CRM.AttributeMetadata

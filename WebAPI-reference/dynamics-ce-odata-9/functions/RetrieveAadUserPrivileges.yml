@@ -4,13 +4,13 @@ name: "RetrieveAadUserPrivileges"
 type: function
 metadata: 
   title: "Microsoft Dataverse RetrieveAadUserPrivileges Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: c85724ed-5590-4e28-b1dd-dc317ee8449a
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse RetrieveAadUserPrivileges Function."
 namespace: Microsoft.Dynamics.CRM
 description: ""
@@ -32,7 +32,7 @@ return_type:
   iscollection: false
   nullable: false
 # This function no specific entities for this function identified.
-# This function has no remarks.
+# There are no remarks for this function.
 href_see_also:
 - text: "Use the Microsoft Dataverse Web API"
   href: "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/overview"

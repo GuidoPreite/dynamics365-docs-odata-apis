@@ -4,13 +4,13 @@ name: "ExecuteWorkflow"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 83c32c87-5b62-47a4-91f4-f7fa69abf741
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse ExecuteWorkflow Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Executes a workflow."

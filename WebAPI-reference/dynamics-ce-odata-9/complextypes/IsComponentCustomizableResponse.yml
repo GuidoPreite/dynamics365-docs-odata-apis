@@ -4,13 +4,13 @@ name: "IsComponentCustomizableResponse"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse IsComponentCustomizableResponse ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: cc32e0ef-333e-4817-8985-33b7d5e66ea9
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API IsComponentCustomizableResponse ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.

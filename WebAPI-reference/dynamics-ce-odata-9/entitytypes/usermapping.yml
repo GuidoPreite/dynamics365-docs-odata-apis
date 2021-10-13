@@ -4,13 +4,13 @@ name: "usermapping"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: de5ed29b-b465-47e8-94b4-6823c07bb628
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse usermapping entitytype."
 description: "User Mapping"
 header:

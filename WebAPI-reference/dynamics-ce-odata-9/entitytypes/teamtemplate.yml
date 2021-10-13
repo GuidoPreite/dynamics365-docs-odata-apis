@@ -4,13 +4,13 @@ name: "teamtemplate"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: f2acf955-3ed2-4cfb-aecf-8c7226021dbb
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse teamtemplate entitytype."
 description: "Team template for an entity enabled for automatically created access teams."
 header:

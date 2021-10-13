@@ -4,13 +4,13 @@ name: "RetrieveMissingComponents"
 type: function
 metadata: 
   title: "Microsoft Dataverse RetrieveMissingComponents Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 4c4ab72f-3b1a-466b-85ec-56fd764362c4
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse RetrieveMissingComponents Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Retrieves a list of missing components in the target organization.  "

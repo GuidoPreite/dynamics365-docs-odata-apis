@@ -4,13 +4,13 @@ name: "GenerateSocialProfile"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 0a5e4dcc-66be-417c-b6aa-3abaeebb25d6
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse GenerateSocialProfile Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Returns an existing social profile record if one exists, otherwise generates a new one and returns it.  "

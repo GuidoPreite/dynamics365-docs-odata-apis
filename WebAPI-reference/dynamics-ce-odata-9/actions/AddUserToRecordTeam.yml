@@ -4,13 +4,13 @@ name: "AddUserToRecordTeam"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: c99d5329-481e-466a-99c5-116df1c7ee4a
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse AddUserToRecordTeam Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Adds a user to the auto created access team for the specified record. "

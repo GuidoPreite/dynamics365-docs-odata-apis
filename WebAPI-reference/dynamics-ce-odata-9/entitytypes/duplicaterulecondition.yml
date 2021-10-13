@@ -4,13 +4,13 @@ name: "duplicaterulecondition"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: c78dbc01-42dc-4d0d-aa04-1f42f6949b24
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse duplicaterulecondition entitytype."
 description: "Condition of a duplicate detection rule."
 header:

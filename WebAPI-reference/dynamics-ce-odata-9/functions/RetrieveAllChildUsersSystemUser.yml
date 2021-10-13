@@ -4,13 +4,13 @@ name: "RetrieveAllChildUsersSystemUser"
 type: function
 metadata: 
   title: "Microsoft Dataverse RetrieveAllChildUsersSystemUser Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 6e7418e8-07bd-4284-a98a-668182958746
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse RetrieveAllChildUsersSystemUser Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Retrieves the collection of users that report to the specified system user (user).  "

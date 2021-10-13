@@ -4,13 +4,13 @@ name: "processtrigger"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 8c0961a2-4d72-40d3-b166-45cc9901bc49
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse processtrigger entitytype."
 description: "Trigger that invoke a rule."
 header:

@@ -4,13 +4,13 @@ name: "IsPmEnabledResponse"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse IsPmEnabledResponse ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: f495e479-01e8-4456-b06d-30b7481e7605
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API IsPmEnabledResponse ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.
@@ -30,7 +30,7 @@ usedby:
   usedby_items:
   - name: Microsoft.Dynamics.CRM.IsPmEnabled
     used_as: ReturnType
-# This complex type has no remarks.
+# There are no remarks for this complex type.
 href_see_also:
 - text: "Use the Microsoft Dataverse Web API"
   href: "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/overview"

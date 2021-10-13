@@ -4,13 +4,13 @@ name: "installResponse"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse installResponse ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: bbc56309-99da-4ce7-af80-47272a4f53ed
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API installResponse ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.
@@ -36,7 +36,7 @@ usedby:
   usedby_items:
   - name: Microsoft.Dynamics.CRM.install
     used_as: ReturnType
-# This complex type has no remarks.
+# There are no remarks for this complex type.
 href_see_also:
 - text: "Use the Microsoft Dataverse Web API"
   href: "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/overview"

@@ -4,13 +4,13 @@ name: "theme"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 8f1eda24-1ca0-4c9e-9938-0a33b2631bfc
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse theme entitytype."
 description: "Information that's used to set custom visual theme options for client applications."
 header:

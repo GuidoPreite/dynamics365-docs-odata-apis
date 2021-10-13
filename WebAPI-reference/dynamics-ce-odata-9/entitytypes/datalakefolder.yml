@@ -4,13 +4,13 @@ name: "datalakefolder"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: fa1b00c2-bbcf-47ab-baa6-37479f3676a8
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse datalakefolder entitytype."
 description: "A folder is a place to store data in Azure Data Lake."
 header:
@@ -54,7 +54,13 @@ properties:
       display_name: "Container Endpoint"
       description: "Azure Data Lake container endpoint for this folder."
       iscomputed: false
-      isreadonly: true
+      isreadonly: false
+    - name: contributorsecuritygroupid
+      type: Edm.Guid
+      display_name: "Contributor Security Group Id"
+      description: "The security group for contributor access."
+      iscomputed: false
+      isreadonly: false
     - name: createdon
       type: Edm.DateTimeOffset
       display_name: "Created On"
@@ -106,6 +112,28 @@ properties:
       type: Edm.Boolean
       display_name: "Is Deep Copy Enabled"
       description: "Indicates if deep copy is enabled for folder."
+      iscomputed: false
+      isreadonly: false
+      options:
+        - value: 1
+          label: "Yes"
+        - value: 0
+          label: "No"
+    - name: isexternallake
+      type: Edm.Boolean
+      display_name: "Is External Lake"
+      description: "Indicates whether lake is managed or external."
+      iscomputed: false
+      isreadonly: false
+      options:
+        - value: 1
+          label: "Yes"
+        - value: 0
+          label: "No"
+    - name: isexternallakereadonly
+      type: Edm.Boolean
+      display_name: "Is External Lake Read Only"
+      description: "Indicates whether external lake is read only."
       iscomputed: false
       isreadonly: false
       options:
@@ -170,7 +198,13 @@ properties:
       display_name: "Path"
       description: "Folder path in the Azure Data Lake container."
       iscomputed: false
-      isreadonly: true
+      isreadonly: false
+    - name: readersecuritygroupid
+      type: Edm.Guid
+      display_name: "Reader Security Group Id"
+      description: "The security group for reader access."
+      iscomputed: false
+      isreadonly: false
     - name: solutionid
       type: Edm.Guid
       display_name: "Solution"
@@ -182,7 +216,7 @@ properties:
       display_name: "Status"
       description: "Status of the Data Lake Folder"
       iscomputed: false
-      isreadonly: true
+      isreadonly: false
       options:
         - value: 0
           label: "Active"
@@ -193,7 +227,7 @@ properties:
       display_name: "Status Reason"
       description: "Reason for the status of the Data Lake Folder"
       iscomputed: false
-      isreadonly: true
+      isreadonly: false
       options:
         - value: 1
           label: "Active"
@@ -330,7 +364,7 @@ solutions:
   solution_items:
   - type: Microsoft.Dynamics.CRM.datalakeworkspaces
     description: ""
-# This entity has no remarks.
+# There are no remarks for this entity.
 href_see_also:
 - text: "Use the Microsoft Dataverse Web API"
   href: "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/overview"

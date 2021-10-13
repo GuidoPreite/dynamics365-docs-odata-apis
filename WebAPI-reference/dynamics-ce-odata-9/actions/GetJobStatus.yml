@@ -4,13 +4,13 @@ name: "GetJobStatus"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: a0d5ce6a-fedf-48e6-8202-54320e2923c5
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse GetJobStatus Action."
 namespace: Microsoft.Dynamics.CRM
 # This Action has no description.

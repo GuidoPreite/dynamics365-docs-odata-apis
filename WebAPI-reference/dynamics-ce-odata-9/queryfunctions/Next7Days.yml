@@ -4,13 +4,13 @@ name: "Next7Days"
 type: queryfunction
 metadata: 
   title: "Microsoft Dataverse Next7Days Query Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: e1cd9033-2038-4ed4-8fc4-63842753dbd4
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Next7Days Query Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Query function to evaluate whether the value is within the next 7 days."

@@ -4,13 +4,13 @@ name: "ComplexMemoAttributeMetadata"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse ComplexMemoAttributeMetadata ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 0de801ff-3d14-4067-acef-7a37ff634896
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API ComplexMemoAttributeMetadata ComplexType."
 namespace: Microsoft.Dynamics.CRM
 header:
@@ -21,6 +21,12 @@ properties:
   property_items:
   - name: Format
     type: Microsoft.Dynamics.CRM.StringFormat
+    nullable: true
+    unicode: true
+    description: ""
+    iscollection: false
+  - name: FormatName
+    type: Microsoft.Dynamics.CRM.MemoFormatName
     nullable: true
     unicode: true
     description: ""

@@ -4,13 +4,13 @@ name: "transformationparametermapping"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 668e9c5d-0ae5-4398-aeee-6c0f4490af5d
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse transformationparametermapping entitytype."
 description: "In a data map, defines parameters for a transformation."
 header:

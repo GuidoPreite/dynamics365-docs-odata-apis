@@ -4,13 +4,13 @@ name: "sdkmessageprocessingstep"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 8b4d5a48-8d82-4c43-a83c-220452bb1ae0
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse sdkmessageprocessingstep entitytype."
 description: "Stage in the execution pipeline that a plug-in is to execute."
 header:
@@ -50,6 +50,12 @@ properties:
           label: "Yes"
         - value: 0
           label: "No"
+    - name: category
+      type: Edm.String
+      display_name: "Category"
+      description: "For internal use only."
+      iscomputed: false
+      isreadonly: false
     - name: componentstate
       type: Edm.Int32
       display_name: "Component State"

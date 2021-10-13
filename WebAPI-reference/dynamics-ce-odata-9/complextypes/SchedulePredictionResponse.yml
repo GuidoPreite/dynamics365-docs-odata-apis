@@ -4,13 +4,13 @@ name: "SchedulePredictionResponse"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse SchedulePredictionResponse ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 97071596-5a91-432b-95c3-55130483cae5
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API SchedulePredictionResponse ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.

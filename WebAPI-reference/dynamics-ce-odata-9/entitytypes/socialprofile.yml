@@ -4,13 +4,13 @@ name: "socialprofile"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 28159a25-5aae-4273-b467-991b8520e6ff
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse socialprofile entitytype."
 description: "This entity is used to store social profile information of its associated account and contacts on different social channels."
 header:

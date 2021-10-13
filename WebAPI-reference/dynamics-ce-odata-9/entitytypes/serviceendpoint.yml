@@ -4,13 +4,13 @@ name: "serviceendpoint"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 302cc977-c26b-4001-be1e-759f1af5ab6c
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse serviceendpoint entitytype."
 description: "Service endpoint that can be contacted."
 header:
@@ -176,6 +176,17 @@ properties:
           label: "Yes"
         - value: 0
           label: "No"
+    - name: messagecharset
+      type: Edm.Int32
+      display_name: "Specifies the character encoding to be used for messages sent to a service endpoint"
+      description: "Specifies the character encoding for message content"
+      iscomputed: false
+      isreadonly: false
+      options:
+        - value: 0
+          label: "Default"
+        - value: 1
+          label: "UTF8"
     - name: messageformat
       type: Edm.Int32
       display_name: "Content type of the message"

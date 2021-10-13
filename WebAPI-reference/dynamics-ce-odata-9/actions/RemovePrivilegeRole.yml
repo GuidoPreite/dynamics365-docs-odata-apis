@@ -4,13 +4,13 @@ name: "RemovePrivilegeRole"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 27dcf697-2340-4d9e-9f52-0c802987644b
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse RemovePrivilegeRole Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Removes a privilege from an existing role. "

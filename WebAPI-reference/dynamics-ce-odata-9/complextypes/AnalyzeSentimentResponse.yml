@@ -4,13 +4,13 @@ name: "AnalyzeSentimentResponse"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse AnalyzeSentimentResponse ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 433bbc8e-4bd4-45b9-a066-27c5dd34d6dc
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API AnalyzeSentimentResponse ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.

@@ -4,13 +4,13 @@ name: "customcontrol"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: e9e61bf7-6995-45a8-8d31-c3c79cb0dc4a
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse customcontrol entitytype."
 description: "For internal use only."
 header:

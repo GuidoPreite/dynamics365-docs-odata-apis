@@ -4,13 +4,13 @@ name: "msdyn_aibfile"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: d17a88bc-2696-4e91-ad1e-adb3df8e6d78
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse msdyn_aibfile entitytype."
 # This entity doesn't have a description
 header:
@@ -60,7 +60,7 @@ properties:
       isreadonly: false
     - name: msdyn_file
       type: Edm.Binary
-      display_name: ""
+      display_name: "File"
       description: ""
       iscomputed: false
       isreadonly: true

@@ -4,19 +4,19 @@ name: "keyvaultreference"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 9e0524f7-1cd2-468a-b60d-47dbfbb1e8cc
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse keyvaultreference entitytype."
-description: "KeyVaultReference entity"
+description: "Contains data that refers to an Azure Key Vault containing credentials used to connect to secure web-hosted resources."
 header:
   entity_set_path: "[organization URI]/api/data/v9.0/keyvaultreferences"
   base_type: Microsoft.Dynamics.CRM.crmbaseentity
-  display_name: KeyVaultReference
+  display_name: Key Vault Reference
   primary_key: keyvaultreferenceid
   primary_name_attribute: keyvaulturi
   operations_supported:
@@ -80,8 +80,8 @@ properties:
           label: "Unmanaged"
     - name: isvalidated
       type: Edm.Boolean
-      display_name: ""
-      description: ""
+      display_name: "Is Validated"
+      description: "For internal use only."
       iscomputed: false
       isreadonly: false
       options:
@@ -97,8 +97,8 @@ properties:
       isreadonly: false
     - name: keytype
       type: Edm.Int32
-      display_name: "KeyType"
-      description: ""
+      display_name: "Key Type"
+      description: "The type of key to use."
       iscomputed: false
       isreadonly: false
       options:
@@ -116,8 +116,8 @@ properties:
       isreadonly: false
     - name: keyvaulturi
       type: Edm.String
-      display_name: "Keyvault URI"
-      description: "Keyvault URI"
+      display_name: "Key Vault Uri"
+      description: "The Uri for the Key Vault."
       iscomputed: false
       isreadonly: false
     - name: modifiedon
@@ -140,8 +140,8 @@ properties:
       isreadonly: true
     - name: preauthorizedapplicationtype
       type: Edm.Int32
-      display_name: "PreAuthorizedApplicationType"
-      description: ""
+      display_name: "Pre-Authorized Application Type"
+      description: "The type of pre-authorized application."
       iscomputed: false
       isreadonly: false
       options:
@@ -158,7 +158,7 @@ properties:
     - name: statecode
       type: Edm.Int32
       display_name: "Status"
-      description: "Status of the KeyVaultReference"
+      description: "Status of the Key Vault Reference"
       iscomputed: false
       isreadonly: false
       options:
@@ -169,7 +169,7 @@ properties:
     - name: statuscode
       type: Edm.Int32
       display_name: "Status Reason"
-      description: "Reason for the status of the KeyVaultReference"
+      description: "Reason for the status of the Key Vault Reference"
       iscomputed: false
       isreadonly: false
       options:
@@ -321,7 +321,7 @@ solutions:
   solution_items:
   - type: Microsoft.Dynamics.CRM.ManagedIdentityExtensions
     description: ""
-# This entity has no remarks.
+# There are no remarks for this entity.
 href_see_also:
 - text: "Use the Microsoft Dataverse Web API"
   href: "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/overview"

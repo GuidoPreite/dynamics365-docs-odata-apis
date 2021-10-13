@@ -4,13 +4,13 @@ name: "UniqueIdentifierAttributeMetadata"
 type: metadataentitytype
 metadata: 
   title: "Microsoft Dataverse UniqueIdentifierAttributeMetadata Metadata EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: d8458227-5cae-42bc-a4cd-d41ca10cfded
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse UniqueIdentifierAttributeMetadata metadata entitytype."
 header: 
   description: "Represents the unique identifier attribute metadata."
@@ -211,6 +211,10 @@ properties:
     type: Edm.String
     inherited_from: Microsoft.Dynamics.CRM.AttributeMetadata
     description: "The schema name for the attribute."
+  - name: Settings
+    type: Microsoft.Dynamics.CRM.EntitySetting
+    inherited_from: Microsoft.Dynamics.CRM.AttributeMetadata
+    description: ""
   - name: SourceType
     type: Edm.Int32
     inherited_from: Microsoft.Dynamics.CRM.AttributeMetadata

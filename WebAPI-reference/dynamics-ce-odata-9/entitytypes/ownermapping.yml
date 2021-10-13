@@ -4,13 +4,13 @@ name: "ownermapping"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 07704631-e6b5-4658-9fb2-e486bde2ced8
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse ownermapping entitytype."
 description: "In a data map, maps ownership data from the source file to Microsoft Dynamics 365."
 header:

@@ -4,13 +4,13 @@ name: "principal"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: eadc0332-b4ca-448c-adba-25dd85c9586b
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse principal entitytype."
 description: "Group of undeleted system users and undeleted teams. Owners can be used to control access to specific objects."
 header:

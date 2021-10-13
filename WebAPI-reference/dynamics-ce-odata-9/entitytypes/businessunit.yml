@@ -4,13 +4,13 @@ name: "businessunit"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: e85b8304-38e8-4c70-bf14-297a98889a43
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse businessunit entitytype."
 description: "Business, division, or department in the Microsoft Dynamics 365 database."
 header:

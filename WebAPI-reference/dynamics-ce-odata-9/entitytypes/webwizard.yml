@@ -4,13 +4,13 @@ name: "webwizard"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 5db5649b-a6d9-4885-8119-84c82f5ef1ea
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse webwizard entitytype."
 description: "Definition for a Web-based wizard."
 header:

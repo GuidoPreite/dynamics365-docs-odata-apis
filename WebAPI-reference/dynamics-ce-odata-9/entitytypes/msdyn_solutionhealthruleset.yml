@@ -4,13 +4,13 @@ name: "msdyn_solutionhealthruleset"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 25ab0e8f-d048-49d5-9a0d-41a5cca7cd0c
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse msdyn_solutionhealthruleset entitytype."
 description: "Represents a set that owns a number of solution health rules."
 header:

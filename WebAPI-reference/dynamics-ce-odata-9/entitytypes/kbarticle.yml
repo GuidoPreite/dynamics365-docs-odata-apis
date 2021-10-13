@@ -4,13 +4,13 @@ name: "kbarticle"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: c84bf378-717f-4d69-a19b-1c95aeaeb3c5
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse kbarticle entitytype."
 description: "Structured content that is part of the knowledge base."
 header:

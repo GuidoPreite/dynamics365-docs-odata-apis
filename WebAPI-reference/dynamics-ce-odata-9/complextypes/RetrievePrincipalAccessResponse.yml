@@ -4,13 +4,13 @@ name: "RetrievePrincipalAccessResponse"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse RetrievePrincipalAccessResponse ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 2071a2cf-17e0-4929-966a-07e9a07c7c01
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API RetrievePrincipalAccessResponse ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.

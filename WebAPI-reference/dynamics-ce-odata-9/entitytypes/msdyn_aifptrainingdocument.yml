@@ -4,13 +4,13 @@ name: "msdyn_aifptrainingdocument"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 77228139-7f90-4187-824c-b12ed975f00c
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse msdyn_aifptrainingdocument entitytype."
 # This entity doesn't have a description
 header:

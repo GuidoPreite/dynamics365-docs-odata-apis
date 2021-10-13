@@ -4,13 +4,13 @@ name: "Tomorrow"
 type: queryfunction
 metadata: 
   title: "Microsoft Dataverse Tomorrow Query Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: c50accc4-e6ab-495b-ade7-6b3c2fcb700a
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Tomorrow Query Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Query function that evaluates whether the value equals tomorrow’s date.  "

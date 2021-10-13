@@ -4,13 +4,13 @@ name: "customcontrolresource"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 3e86687f-8dcf-46ba-8cd9-8cba69ecb1fe
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse customcontrolresource entitytype."
 description: "Custom Control Resource Id"
 header:

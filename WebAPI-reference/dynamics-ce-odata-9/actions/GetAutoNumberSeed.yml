@@ -4,13 +4,13 @@ name: "GetAutoNumberSeed"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: e7a81772-843f-43bb-9e4f-172dee0af729
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse GetAutoNumberSeed Action."
 namespace: Microsoft.Dynamics.CRM
 # This Action has no description.

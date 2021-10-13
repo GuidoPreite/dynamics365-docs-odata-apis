@@ -4,13 +4,13 @@ name: "QuerySchedule"
 type: function
 metadata: 
   title: "Microsoft Dataverse QuerySchedule Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: f77eb2a1-c354-42ee-982a-9da5cad277d3
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse QuerySchedule Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Searches the specified resource for an available time block that matches the specified parameters.  "

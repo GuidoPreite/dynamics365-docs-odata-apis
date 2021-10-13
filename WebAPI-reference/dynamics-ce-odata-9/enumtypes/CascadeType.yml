@@ -4,13 +4,13 @@ name: "CascadeType"
 type: enumtype
 metadata: 
   title: "Microsoft Dataverse CascadeType EnumType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 642d8106-e117-44c7-ac88-d8103e2122a3
   author: "kumarVivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API CascadeType ComplexType."
 namespace: Microsoft.Dynamics.CRM
 description: "Describes the type of behavior for a specific action applied to the referenced entity in a one-to-many entity relationship. " 

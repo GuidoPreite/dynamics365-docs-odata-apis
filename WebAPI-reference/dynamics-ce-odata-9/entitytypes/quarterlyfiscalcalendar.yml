@@ -4,13 +4,13 @@ name: "quarterlyfiscalcalendar"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: f6f3164d-4c13-4f41-b7fe-c8bf161b8187
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse quarterlyfiscalcalendar entitytype."
 description: "Quarterly fiscal calendar of an organization. A span of time during which the financial activities of an organization are calculated."
 header:

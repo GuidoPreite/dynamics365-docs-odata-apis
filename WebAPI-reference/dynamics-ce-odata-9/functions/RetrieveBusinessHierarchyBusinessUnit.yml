@@ -4,13 +4,13 @@ name: "RetrieveBusinessHierarchyBusinessUnit"
 type: function
 metadata: 
   title: "Microsoft Dataverse RetrieveBusinessHierarchyBusinessUnit Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 2ae2d2ac-79bc-4d46-aa52-ed0bd9748029
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse RetrieveBusinessHierarchyBusinessUnit Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Retrieves all business units from the business unit hierarchy.  "

@@ -4,13 +4,13 @@ name: "PvaGetDirectLineEndpoint"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 9168d396-0c90-4b54-8fd8-b554c09471fb
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse PvaGetDirectLineEndpoint Action."
 namespace: Microsoft.Dynamics.CRM
 # This Action has no description.

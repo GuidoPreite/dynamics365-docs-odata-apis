@@ -4,13 +4,13 @@ name: "EntityKeyMetadata"
 type: metadataentitytype
 metadata: 
   title: "Microsoft Dataverse EntityKeyMetadata Metadata EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: bbbe4ead-b1ca-4cd4-9e80-2a18d9256264
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse EntityKeyMetadata metadata entitytype."
 header: 
   description: "Contains the metadata for entity key."

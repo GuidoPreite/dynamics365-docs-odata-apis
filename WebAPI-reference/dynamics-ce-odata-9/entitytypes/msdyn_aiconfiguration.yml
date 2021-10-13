@@ -4,13 +4,13 @@ name: "msdyn_aiconfiguration"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 59be91bc-9bc3-4501-8d0e-304026e6e094
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse msdyn_aiconfiguration entitytype."
 # This entity doesn't have a description
 header:
@@ -134,7 +134,7 @@ properties:
       isreadonly: false
     - name: msdyn_model
       type: Edm.Binary
-      display_name: ""
+      display_name: "msdyn_Model"
       description: "This is a file type attribute to store Ai builder Model."
       iscomputed: false
       isreadonly: true
@@ -332,6 +332,10 @@ lookup_properties:
     single_valued_navigation_property:
     - msdyn_AIModelId
     description: "Unique identifier for AIModel associated with AIConfiguration."
+  - name: _msdyn_connectionreferenceid_value
+    single_valued_navigation_property:
+    - msdyn_ConnectionReferenceId
+    description: "Unique identifier for Connection Reference associated with AIConfiguration."
   - name: _msdyn_createdfromconfigurationid_value
     single_valued_navigation_property:
     - msdyn_CreatedFromConfigurationId
@@ -374,6 +378,9 @@ single_valued_navigation_properties:
   - name: msdyn_AIModelId
     type: Microsoft.Dynamics.CRM.msdyn_aimodel
     partner: msdyn_aimodel_msdyn_aiconfiguration
+  - name: msdyn_ConnectionReferenceId
+    type: Microsoft.Dynamics.CRM.connectionreference
+    partner: msdyn_AIConfiguration_ConnectionReference
   - name: msdyn_CreatedFromConfigurationId
     type: Microsoft.Dynamics.CRM.msdyn_aiconfiguration
     partner: msdyn_createdfromconfiguration_msdyn_toconfiguration

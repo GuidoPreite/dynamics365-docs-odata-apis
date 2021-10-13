@@ -4,13 +4,13 @@ name: "LastXYears"
 type: queryfunction
 metadata: 
   title: "Microsoft Dataverse LastXYears Query Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: d9491b06-199d-4399-9317-68521292130e
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse LastXYears Query Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Query function to evaluate whether the value is within the last X years. "

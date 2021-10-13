@@ -4,13 +4,13 @@ name: "Microsoft Dynamics 365 Settings APIs"
 type: solution
 metadata: 
   title: "Microsoft Dataverse Microsoft Dynamics 365 Settings APIs Solution Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 9212dd81-410a-408b-8cc5-b6bc4d09d1b6
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Microsoft Dynamics 365 Settings APIs Solution."
 namespace: Microsoft.Dynamics.CRM
 header:

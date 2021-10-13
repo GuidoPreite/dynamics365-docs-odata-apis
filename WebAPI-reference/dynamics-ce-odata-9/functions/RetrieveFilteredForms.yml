@@ -4,13 +4,13 @@ name: "RetrieveFilteredForms"
 type: function
 metadata: 
   title: "Microsoft Dataverse RetrieveFilteredForms Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 7ce46556-cc95-4307-b22f-c7d65a77391e
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse RetrieveFilteredForms Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Retrieves the entity forms that are available for a specified user. "

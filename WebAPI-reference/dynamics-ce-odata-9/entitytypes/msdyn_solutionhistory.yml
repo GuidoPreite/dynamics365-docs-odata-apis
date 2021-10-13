@@ -4,13 +4,13 @@ name: "msdyn_solutionhistory"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 603a5adc-4f3a-4d1b-823a-6bc4024a3dc0
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse msdyn_solutionhistory entitytype."
 # This entity doesn't have a description
 header:
@@ -97,6 +97,12 @@ properties:
           label: "Yes"
         - value: 0
           label: "No"
+    - name: msdyn_maxretries
+      type: Edm.Int32
+      display_name: "Maximum Retries"
+      description: "Maximum number of retries."
+      iscomputed: false
+      isreadonly: false
     - name: msdyn_name
       type: Edm.String
       display_name: "Solution Name"
@@ -165,6 +171,12 @@ properties:
           label: "Success"
         - value: 0
           label: "Failure"
+    - name: msdyn_retrycount
+      type: Edm.Int32
+      display_name: "Retry count"
+      description: "Retry count"
+      iscomputed: false
+      isreadonly: false
     - name: msdyn_solutionhistoryid
       type: Edm.Guid
       display_name: "Solutionhistory"

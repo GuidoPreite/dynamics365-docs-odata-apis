@@ -4,13 +4,13 @@ name: "NotBetween"
 type: queryfunction
 metadata: 
   title: "Microsoft Dataverse NotBetween Query Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 3b639404-9ee2-4c29-82b1-18d7cd87280b
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse NotBetween Query Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Query function to evaluate whether the value is not between two values."

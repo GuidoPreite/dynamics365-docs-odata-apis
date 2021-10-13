@@ -4,13 +4,13 @@ name: "documenttemplate"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 93bce111-c779-4328-a2af-e0db9f3f5db2
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse documenttemplate entitytype."
 description: "Used to store Document Templates in database in binary format."
 header:

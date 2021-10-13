@@ -4,13 +4,13 @@ name: "msdyn_kalanguagesetting"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 85f950ca-4ba5-4521-96ec-e785773f019a
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse msdyn_kalanguagesetting entitytype."
 description: "Allows you to select default language for knowledge authoring."
 header:
@@ -237,7 +237,7 @@ solutions:
   solution_items:
   - type: Microsoft.Dynamics.CRM.msdynce_KnowledgeManagementFeatures
     description: "Dynamics 365 features and migrated controls for knowledge management."
-# This entity has no remarks.
+# There are no remarks for this entity.
 href_see_also:
 - text: "Use the Microsoft Dataverse Web API"
   href: "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/overview"

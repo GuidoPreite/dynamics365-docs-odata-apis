@@ -4,13 +4,13 @@ name: "InsertStatusValue"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: a20460ab-6e8e-44f9-84bf-f625139d543c
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse InsertStatusValue Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Inserts a new option into a StatusAttributeMetadata attribute. "

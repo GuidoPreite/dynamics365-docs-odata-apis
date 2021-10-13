@@ -4,13 +4,13 @@ name: "stagesolutionupload"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: ff4d5cd7-b807-499c-b18d-c269e855f678
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse stagesolutionupload entitytype."
 # This entity doesn't have a description
 header:
@@ -60,7 +60,7 @@ properties:
       isreadonly: false
     - name: solutionfile
       type: Edm.Binary
-      display_name: ""
+      display_name: "SolutionFile"
       description: ""
       iscomputed: false
       isreadonly: true

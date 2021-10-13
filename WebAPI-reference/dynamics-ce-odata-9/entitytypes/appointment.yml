@@ -4,13 +4,13 @@ name: "appointment"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 0e56b1bb-f0e5-4a33-a510-f255a983cbcd
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse appointment entitytype."
 description: "Commitment representing a time interval with start/end times and duration."
 header:

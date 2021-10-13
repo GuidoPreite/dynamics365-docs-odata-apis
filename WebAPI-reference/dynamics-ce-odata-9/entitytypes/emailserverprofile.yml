@@ -4,13 +4,13 @@ name: "emailserverprofile"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: bc588c67-2962-4d40-9f04-ef3beb2e6b41
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse emailserverprofile entitytype."
 description: "Holds the Email Server Profiles of an organization"
 header:

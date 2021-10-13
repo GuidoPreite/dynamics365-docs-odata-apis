@@ -4,13 +4,13 @@ name: "BatchGetFlowMachineStatus"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 40d25974-328b-43e7-86c6-0c7eaa3ec1a8
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse BatchGetFlowMachineStatus Action."
 namespace: Microsoft.Dynamics.CRM
 # This Action has no description.
@@ -31,7 +31,7 @@ return_type:
   nullable: false
   type: Microsoft.Dynamics.CRM.BatchGetFlowMachineStatusResponse
 # This action has no identified unbound entities.
-# This action has no remarks.
+# There are no remarks for this action.
 href_see_also:
 - text: "Use the Microsoft Dataverse Web API"
   href: "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/overview"

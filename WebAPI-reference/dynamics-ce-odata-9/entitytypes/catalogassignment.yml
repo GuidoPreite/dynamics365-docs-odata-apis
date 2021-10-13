@@ -4,13 +4,13 @@ name: "catalogassignment"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: e2d60147-cb4e-43b9-afa2-3ab4b45ffd6d
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse catalogassignment entitytype."
 description: "Entity for assigning records to a specific catalog "
 header:
@@ -255,7 +255,7 @@ solutions:
   solution_items:
   - type: Microsoft.Dynamics.CRM.msft_CatalogFramework
     description: ""
-# This entity has no remarks.
+# There are no remarks for this entity.
 href_see_also:
 - text: "Use the Microsoft Dataverse Web API"
   href: "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/overview"

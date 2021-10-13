@@ -4,13 +4,13 @@ name: "GetValidManyToMany"
 type: function
 metadata: 
   title: "Microsoft Dataverse GetValidManyToMany Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: ffd50861-b84b-4c8a-a707-08e66f570a1f
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse GetValidManyToMany Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Retrieves a list of all the entities that can participate in a Many-to-Many entity relationship.  "

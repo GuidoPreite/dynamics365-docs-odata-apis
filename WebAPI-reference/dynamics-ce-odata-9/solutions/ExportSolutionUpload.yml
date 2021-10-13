@@ -4,13 +4,13 @@ name: "ExportSolutionUpload"
 type: solution
 metadata: 
   title: "Microsoft Dataverse ExportSolutionUpload Solution Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 488c9099-4c16-4815-abec-507490d89336
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse ExportSolutionUpload Solution."
 namespace: Microsoft.Dynamics.CRM
 header:

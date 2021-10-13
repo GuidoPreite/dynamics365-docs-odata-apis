@@ -4,13 +4,13 @@ name: "Search"
 type: function
 metadata: 
   title: "Microsoft Dataverse Search Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: e46ccf0a-e367-43ec-b102-9a32d54f04ab
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Search Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Searches for available time slots that fulfill the specified appointment request.  "

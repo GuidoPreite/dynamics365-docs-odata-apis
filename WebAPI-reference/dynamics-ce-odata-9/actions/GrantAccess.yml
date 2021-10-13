@@ -4,13 +4,13 @@ name: "GrantAccess"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 3eed923d-b536-4764-a687-e55083e9b218
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse GrantAccess Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Grants a security principal (user or team) access to the specified record."
@@ -44,9 +44,6 @@ entities:
   - type: Microsoft.Dynamics.CRM.annotation
     displayName: Note
     description: "Note that is attached to one or more objects, including other notes."
-  - type: Microsoft.Dynamics.CRM.appnotification
-    displayName: Notification
-    description: "Notification to be provided to a user."
   - type: Microsoft.Dynamics.CRM.appointment
     displayName: Appointment
     description: "Commitment representing a time interval with start/end times and duration."
@@ -141,8 +138,8 @@ entities:
     displayName: Data Map
     description: "Data map used in import."
   - type: Microsoft.Dynamics.CRM.keyvaultreference
-    displayName: KeyVaultReference
-    description: "KeyVaultReference entity"
+    displayName: Key Vault Reference
+    description: "Contains data that refers to an Azure Key Vault containing credentials used to connect to secure web-hosted resources."
   - type: Microsoft.Dynamics.CRM.knowledgearticle
     displayName: Knowledge Article
     description: "Organizational knowledge for internal and external use."
@@ -159,8 +156,8 @@ entities:
     displayName: Mail Merge Template
     description: "Template for a mail merge document that contains the standard attributes of that document."
   - type: Microsoft.Dynamics.CRM.managedidentity
-    displayName: ManagedIdentity
-    description: "ManagedIdentity entity"
+    displayName: Managed Identity
+    description: "Contains data to represent an Azure Active Directory Application used to connect to secure web-hosted resources."
   - type: Microsoft.Dynamics.CRM.msdyn_aibdataset
     displayName: AI Builder Dataset
     description: ""

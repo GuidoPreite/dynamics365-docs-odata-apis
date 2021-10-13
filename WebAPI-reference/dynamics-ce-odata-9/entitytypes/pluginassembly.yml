@@ -4,13 +4,13 @@ name: "pluginassembly"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 6f44af15-6283-4a5c-98d0-2951ea931f97
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse pluginassembly entitytype."
 description: "Assembly that contains one or more plug-in types."
 header:
@@ -279,6 +279,10 @@ lookup_properties:
     single_valued_navigation_property:
     - organizationid
     description: "Unique identifier of the organization with which the plug-in assembly is associated."
+  - name: _packageid_value
+    single_valued_navigation_property:
+    - PackageId
+    description: "Unique identifier for Plugin Package associated with Plug-in Assembly."
 single_valued_navigation_properties:
   description: "Single-valued navigation properties represent lookup fields where a single entity can be referenced. Each single-valued navigation property has a corresponding partner collection-valued navigation property on the related entity."
   property_items:

@@ -4,13 +4,13 @@ name: "PrivilegeDepth"
 type: enumtype
 metadata: 
   title: "Microsoft Dataverse PrivilegeDepth EnumType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 056ac66a-95d7-4a5f-bdb5-2782d6ec6c14
   author: "kumarVivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API PrivilegeDepth ComplexType."
 namespace: Microsoft.Dynamics.CRM
 description: "Contains the possible values for the depth of a privilege within a role. " 

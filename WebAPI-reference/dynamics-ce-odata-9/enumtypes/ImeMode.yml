@@ -4,13 +4,13 @@ name: "ImeMode"
 type: enumtype
 metadata: 
   title: "Microsoft Dataverse ImeMode EnumType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 2664e26d-e475-439f-8d8d-a809386d86b4
   author: "kumarVivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API ImeMode ComplexType."
 namespace: Microsoft.Dynamics.CRM
 description: "Describes the input method editor mode " 

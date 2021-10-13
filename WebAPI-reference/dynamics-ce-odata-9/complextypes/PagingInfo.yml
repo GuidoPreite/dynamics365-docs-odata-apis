@@ -4,13 +4,13 @@ name: "PagingInfo"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse PagingInfo ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 36db5e90-14e7-460b-a2f2-e01854643ef6
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API PagingInfo ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.
@@ -56,9 +56,9 @@ usedby:
     used_as: Parameter
   - name: Microsoft.Dynamics.CRM.QueryExpression
     used_as: Property
-  - name: Microsoft.Dynamics.CRM.QueryByAttribute
-    used_as: Property
   - name: Microsoft.Dynamics.CRM.LookupEntityInfo
+    used_as: Property
+  - name: Microsoft.Dynamics.CRM.QueryByAttribute
     used_as: Property
 # There are no remarks for this complex type.
 href_see_also:

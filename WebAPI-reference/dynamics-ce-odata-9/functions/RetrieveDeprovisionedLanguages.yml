@@ -4,13 +4,13 @@ name: "RetrieveDeprovisionedLanguages"
 type: function
 metadata: 
   title: "Microsoft Dataverse RetrieveDeprovisionedLanguages Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 6871a3fa-e1cc-44a2-a284-05c5249fdb14
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse RetrieveDeprovisionedLanguages Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Retrieves a list of language packs that are installed on the server that have been disabled. "

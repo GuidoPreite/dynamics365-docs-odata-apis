@@ -4,13 +4,13 @@ name: "virtualentitymetadata"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 14d0a665-576e-47c3-af44-fc1b64018500
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse virtualentitymetadata entitytype."
 description: "Holds  metadata values for virtual entities"
 header:
@@ -61,6 +61,17 @@ properties:
       description: "Sequence number of the import that created this record."
       iscomputed: false
       isreadonly: false
+    - name: ischangedfieldsenabledforupdateevent
+      type: Edm.Boolean
+      display_name: "Includes data on changed fields for the update message"
+      description: "Whether the OnExternalUpdated message ChangedFields parameter will include data about which fields have changed."
+      iscomputed: false
+      isreadonly: false
+      options:
+        - value: 1
+          label: "Yes"
+        - value: 0
+          label: "No"
     - name: iscustomizable
       type: Microsoft.Dynamics.CRM.BooleanManagedProperty
       display_name: "Is Customizable"
@@ -267,7 +278,7 @@ solutions:
   solution_items:
   - type: Microsoft.Dynamics.CRM.msft_RuntimeIntegration
     description: "CDS Runtime Integration Extensions Solution"
-# This entity has no remarks.
+# There are no remarks for this entity.
 href_see_also:
 - text: "Use the Microsoft Dataverse Web API"
   href: "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/overview"

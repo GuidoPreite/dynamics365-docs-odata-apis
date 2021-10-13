@@ -4,13 +4,13 @@ name: "MultiSelectPicklistAttributeMetadata"
 type: metadataentitytype
 metadata: 
   title: "Microsoft Dataverse MultiSelectPicklistAttributeMetadata Metadata EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 73a01b9d-dabe-4a8c-80d9-819396c9ed75
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse MultiSelectPicklistAttributeMetadata metadata entitytype."
 header: 
 # This entity has no description.
@@ -224,6 +224,10 @@ properties:
     type: Edm.String
     inherited_from: Microsoft.Dynamics.CRM.AttributeMetadata
     description: "The schema name for the attribute."
+  - name: Settings
+    type: Microsoft.Dynamics.CRM.EntitySetting
+    inherited_from: Microsoft.Dynamics.CRM.AttributeMetadata
+    description: ""
   - name: SourceType
     type: Edm.Int32
     inherited_from: Microsoft.Dynamics.CRM.AttributeMetadata

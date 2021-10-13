@@ -4,13 +4,13 @@ name: "AppointmentsToIgnore"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse AppointmentsToIgnore ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 7e1c2725-17a0-44bf-a849-6c6a7140ddf9
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API AppointmentsToIgnore ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.

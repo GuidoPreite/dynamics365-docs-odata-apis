@@ -4,13 +4,13 @@ name: "FileAttributeMetadata"
 type: metadataentitytype
 metadata: 
   title: "Microsoft Dataverse FileAttributeMetadata Metadata EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: ebd76725-5179-4cc0-b453-8b6c2fb6ad30
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse FileAttributeMetadata metadata entitytype."
 header: 
   description: "An abstract class that contains the metadata for an attribute type File."
@@ -214,6 +214,10 @@ properties:
     type: Edm.String
     inherited_from: Microsoft.Dynamics.CRM.AttributeMetadata
     description: "The schema name for the attribute."
+  - name: Settings
+    type: Microsoft.Dynamics.CRM.EntitySetting
+    inherited_from: Microsoft.Dynamics.CRM.AttributeMetadata
+    description: ""
   - name: SourceType
     type: Edm.Int32
     inherited_from: Microsoft.Dynamics.CRM.AttributeMetadata

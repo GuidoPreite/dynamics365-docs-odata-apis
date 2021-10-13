@@ -4,13 +4,13 @@ name: "letter"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 991391ed-b15c-4de1-a743-356d6f9b6925
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse letter entitytype."
 description: "Activity that tracks the delivery of a letter. The activity can contain the electronic copy of the letter."
 header:

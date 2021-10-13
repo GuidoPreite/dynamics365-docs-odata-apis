@@ -1,15 +1,15 @@
 ### YamlMime:ODataIndex
 uid: Microsoft.Dynamics.CRM.SolutionIndex
 name: Web API Solution Reference
-title: "Microsoft DataverseWeb API Solution Reference | MicrosoftDocs"
+title: "Microsoft Dataverse Web API Solution Reference | MicrosoftDocs"
 metadata:   
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 2b9fc5b2-248a-42f2-bd94-c5db4d12f4b5
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
 description: "Solutions include components that are available in the Web API. Solutions can include custom entities, attributes, entity relationships, and custom actions which change the objects available to use in the Web API depending on the solutions installed for the organization. "
 in_this_section:
 - type: Microsoft.Dynamics.CRM.AccessTeam

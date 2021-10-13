@@ -4,13 +4,13 @@ name: "SetBusinessSystemUser"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 0e06bbd2-adbb-484d-b487-1fb0c8f0da67
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse SetBusinessSystemUser Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Moves a system user (user) to a different business unit. "
@@ -33,6 +33,11 @@ parameters:
     nullable: false
     unicode: true
     description: "The target security principal (user) to which the instances of entities previously owned by the user are to be assigned.  "
+  - name: DoNotMoveAllRecords
+    type: Edm.Boolean
+    nullable: true
+    unicode: true
+    description: ""
 # This action has no return value.
 hasreturnvalue: false
 # This action has no identified unbound entities.

@@ -4,13 +4,13 @@ name: "NextYear"
 type: queryfunction
 metadata: 
   title: "Microsoft Dataverse NextYear Query Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: d11b51ce-e9ee-4132-bb6b-39fe772dddc1
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse NextYear Query Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Query function to evaluate whether the value is in the next X year.  "

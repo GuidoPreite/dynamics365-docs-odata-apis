@@ -4,13 +4,13 @@ name: "GetTrackingTokenEmail"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 0a146e8b-1d31-4874-bff5-2f23d6b38f74
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse GetTrackingTokenEmail Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Returns a tracking token that can then be passed as a parameter to the SendEmailRequest message. "

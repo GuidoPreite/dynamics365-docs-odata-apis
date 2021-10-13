@@ -4,13 +4,13 @@ name: "AddPrivilegesRole"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: a8cedc85-0db8-4d45-947b-130c5329c12f
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse AddPrivilegesRole Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Adds a set of existing privileges to an existing role. "

@@ -4,13 +4,13 @@ name: "MetadataFilterExpression"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse MetadataFilterExpression ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 5699b9e3-1e0d-4306-8caa-21be13946872
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API MetadataFilterExpression ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.

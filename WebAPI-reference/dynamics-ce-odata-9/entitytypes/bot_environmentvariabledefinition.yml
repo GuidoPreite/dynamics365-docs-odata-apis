@@ -4,13 +4,13 @@ name: "bot_environmentvariabledefinition"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 36c0838d-9893-4358-9397-68ac8b5e8d56
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse bot_environmentvariabledefinition entitytype."
 # This entity doesn't have a description
 header:
@@ -105,7 +105,7 @@ properties:
 # This entity has no derived entities.
 # This entity has no operations
 # This entity is not included in any solutions.
-# This entity has no remarks.
+# There are no remarks for this entity.
 href_see_also:
 - text: "Use the Microsoft Dataverse Web API"
   href: "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/overview"

@@ -4,13 +4,13 @@ name: "IsValidStateTransition"
 type: function
 metadata: 
   title: "Microsoft Dataverse IsValidStateTransition Function Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 27121c41-5d48-4079-bf8f-2a03e9e44a12
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse IsValidStateTransition Function."
 namespace: Microsoft.Dynamics.CRM
 description: "Validates the state transition."
@@ -52,9 +52,6 @@ entities:
   - type: Microsoft.Dynamics.CRM.applicationuser
     displayName: "ApplicationUser"
     description: "Application User that has non-interactive access to the CDS system"
-  - type: Microsoft.Dynamics.CRM.appnotification
-    displayName: "Notification"
-    description: "Notification to be provided to a user."
   - type: Microsoft.Dynamics.CRM.attributeimageconfig
     displayName: "Image Attribute Configuration"
     description: "Store configuration for each image attribute"
@@ -122,11 +119,11 @@ entities:
     displayName: "Flow Session"
     description: "Entity to store the information that is generated when a modern flow or UI flow runs."
   - type: Microsoft.Dynamics.CRM.keyvaultreference
-    displayName: "KeyVaultReference"
-    description: "KeyVaultReference entity"
+    displayName: "Key Vault Reference"
+    description: "Contains data that refers to an Azure Key Vault containing credentials used to connect to secure web-hosted resources."
   - type: Microsoft.Dynamics.CRM.managedidentity
-    displayName: "ManagedIdentity"
-    description: "ManagedIdentity entity"
+    displayName: "Managed Identity"
+    description: "Contains data to represent an Azure Active Directory Application used to connect to secure web-hosted resources."
   - type: Microsoft.Dynamics.CRM.msdyn_aibdataset
     displayName: "AI Builder Dataset"
     description: ""
@@ -188,7 +185,7 @@ entities:
     displayName: "Knowledge Federated Article"
     description: ""
   - type: Microsoft.Dynamics.CRM.msdyn_federatedarticleincident
-    displayName: "Knowledge FederatedArticle Incident"
+    displayName: "Knowledge Federated Article Incident"
     description: ""
   - type: Microsoft.Dynamics.CRM.msdyn_helppage
     displayName: "Help Page"

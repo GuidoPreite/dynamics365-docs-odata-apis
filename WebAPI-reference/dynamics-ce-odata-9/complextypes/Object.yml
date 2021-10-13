@@ -4,13 +4,13 @@ name: "Object"
 type: complextype
 metadata: 
   title: "Microsoft Dataverse Object ComplexType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: a6ceee19-6f9a-4ef1-a1d4-c36e92618689
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API Object ComplexType."
 namespace: Microsoft.Dynamics.CRM
 # This complex type doesn't inherit from another complextype.
@@ -31,19 +31,7 @@ properties:
     description: ""
     iscollection: false
 # This complex type doesn't have any navigation properties.
-usedby:
-  description: "The following use the Object ComplexType."
-  usedby_items:
-  - name: Microsoft.Dynamics.CRM.ParameterCollection
-    used_as: Property
-  - name: Microsoft.Dynamics.CRM.InputArgument
-    used_as: Property
-  - name: Microsoft.Dynamics.CRM.MetadataConditionExpression
-    used_as: Property
-  - name: Microsoft.Dynamics.CRM.QueryByAttribute
-    used_as: Property
-  - name: Microsoft.Dynamics.CRM.ConditionExpression
-    used_as: Property
+
 # There are no remarks for this complex type.
 href_see_also:
 - text: "Use the Microsoft Dataverse Web API"

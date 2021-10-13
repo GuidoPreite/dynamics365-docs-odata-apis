@@ -4,13 +4,13 @@ name: "appmodulecomponent"
 type: entitytype
 metadata: 
   title: "Microsoft Dataverse EntityType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 2b4de416-40f8-4aaf-b618-7a6b66a7e9a4
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse appmodulecomponent entitytype."
 description: "A component available in a business app such as entity, dashboard, form, view, chart, and business process."
 header:

@@ -4,13 +4,13 @@ name: "ImportFieldTranslation"
 type: action
 metadata: 
   title: "Microsoft Dataverse Action Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: dcc3cf8b-067e-4d7b-bb63-1f21bb07ed41
   author: "kumarvivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse ImportFieldTranslation Action."
 namespace: Microsoft.Dynamics.CRM
 description: "Imports translations from a compressed file."

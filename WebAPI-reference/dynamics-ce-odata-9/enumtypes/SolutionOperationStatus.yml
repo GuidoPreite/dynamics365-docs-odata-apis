@@ -4,13 +4,13 @@ name: "SolutionOperationStatus"
 type: enumtype
 metadata: 
   title: "Microsoft Dataverse SolutionOperationStatus EnumType Reference | MicrosoftDocs"
-  ms.date: "06/02/2021"
+  ms.date: "10/13/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: efac9db3-15f8-464e-acf8-43928c2497ae
   author: "kumarVivek"
   ms.author: "kvivek"
-  manager: "annbe"
+  manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse Web API SolutionOperationStatus ComplexType."
 namespace: Microsoft.Dynamics.CRM
 description: "Not Found" 

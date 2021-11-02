@@ -29,7 +29,7 @@ parameters:
     type: Edm.Guid
     nullable: false
     unicode: true
-    description: "The table row for which access is being retrieved. Note that ObjectId is not bound to the target entity."
+    description: "The unique identifier of the entity record for which access is being retrieved. Note that ObjectId is not bound to the target entity."
     iscollection: false
   - name: EntityName
     type: Edm.String

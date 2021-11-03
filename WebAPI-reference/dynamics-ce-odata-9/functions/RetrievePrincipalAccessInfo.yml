@@ -4,7 +4,7 @@ name: "RetrievePrincipalAccessInfo"
 type: function
 metadata: 
   title: "Microsoft Dataverse RetrievePrincipalAccessInfo Function Reference | MicrosoftDocs"
-  ms.date: "10/13/2021"
+  ms.date: "11/02/2021"
   ms.service: "powerapps"
   ms.topic: "reference"
   ms.assetid: 3fb79248-d055-4d4a-ab0a-c506f72ac870
@@ -13,7 +13,7 @@ metadata:
   manager: "margoc"
   meta-description: "Reference information about the Microsoft Dataverse RetrievePrincipalAccessInfo Function."
 namespace: Microsoft.Dynamics.CRM
-description: ""
+description: "Provides details about how the response of RetrievePrincipalAccess is computed by Dataverse."
 iscomposable: false
 bound_entities:
   description: "Bound functions are invoked by appending the function name to the URI representing an entity or collection."
@@ -29,13 +29,13 @@ parameters:
     type: Edm.Guid
     nullable: false
     unicode: true
-    description: ""
+    description: "The unique identifier of the entity record for which access is being retrieved. Note that ObjectId is not bound to the target entity."
     iscollection: false
   - name: EntityName
     type: Edm.String
     nullable: false
     unicode: false
-    description: ""
+    description: "The logical name of the entity from which data will be accessed."
     iscollection: false
 return_type:
   description: "The RetrievePrincipalAccessInfo function returns the following value."

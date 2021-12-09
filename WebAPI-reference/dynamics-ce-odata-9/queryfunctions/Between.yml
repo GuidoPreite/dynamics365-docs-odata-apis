@@ -26,7 +26,7 @@ parameters:
     type: Edm.String
     nullable: false
     unicode: false
-    description: "The values to comapre "
+    description: "The values to compare."
 syntax_example: "?$filter=Microsoft.Dynamics.CRM.Between(PropertyName=@p1,PropertyValues=@p2)&@p1='name'&@p2=['value','value']"
 # There are no remarks for this query function.
 href_see_also:
